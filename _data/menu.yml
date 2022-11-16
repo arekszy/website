@@ -2,42 +2,46 @@ main:
   - name: Strona główna
     url: /
     weight: 1
-  - name: Uslugi
+  - name: Serwis
     url: /services/
     weight: 1
     child:
-      - name: "Development"
-        url: /services/web-development/
-      - name: "UX"
-        url: /services/user-experience/
-      - name: "Brand"
-        url: /services/branding/
-      - name: "Web Design"
-        url: /services/web-design/
-      - name: "SEO"
-        url: /services/seo/
-      - name: "Software Engineering"
-        url: /services/software-engineering/
-  - name: Projects
+      - name: "Elektronika przemysłowa"
+        url: /services/elektronika-przemyslowa/
+      - name: "Ekrany i panele"
+        url: /services/ekrany-panele/
+      - name: "Płyty główne"
+        url: /services/plyty-glowne/
+      - name: "Zasilacze"
+        url: /services/zasilacze/
+      - name: "Komputery i sterowniki"
+        url: /services/komputery-sterowniki/
+      - name: "Inwertery solarne (fotowoltaika)"
+        url: /services/inwertery-fotowoltaika/
+  - name: Technologie
     url: /projects/
     weight: 2
     child:
-      - name: "Modern Office Design"
-        url: /projects/modern-office-design/
-      - name: "Water Works"
-        url: /projects/water-works-project/
-      - name: "Opera House"
-        url: /projects/opera-house/
-      - name: "Subway Signage"
-        url: /projects/subway-signage/
+      - name: "Analiza mikroobrazowa"
+        url: /projects/analiza-mikroobrazowa/
+      - name: "Termowizja"
+        url: /projects/termowizja/
+      - name: "Microsoldering"
+        url: /projects/microsoldering/
+      - name: "Pomiarowanie i symulacja"
+        url: /projects/pomiarowanie-symulacja/
+      - name: "Dokumentacja techniczna"
+        url: /projects/dokumentacja-techniczna/
+      - name: "Board View"
+        url: /projects/board-view/
   - name: Blog
     url: /blog/
     weight: 4
-  - name: About
+  - name: O nas
     url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+  - name: Kontakt
+    url: /contact/
     weight: 6
 footer_primary:
   - name: Home
