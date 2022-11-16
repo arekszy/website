@@ -2,15 +2,15 @@ main:
   - name: Test
     url: /
     weight: 1
-  - name: Services
+  - name: Uslugi
     url: /services/
     weight: 1
     child:
-      - name: "Web Development"
+      - name: "Development"
         url: /services/web-development/
       - name: "UX"
         url: /services/user-experience/
-      - name: "Branding"
+      - name: "Brand"
         url: /services/branding/
       - name: "Web Design"
         url: /services/web-design/
