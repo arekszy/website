@@ -1,5 +1,5 @@
 main:
-  - name: Test
+  - name: Strona główna
     url: /
     weight: 1
   - name: Uslugi
