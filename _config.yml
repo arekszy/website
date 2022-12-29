@@ -1,7 +1,7 @@
 # -------------------
 # Jekyll Config
 # --------------------
-baseurl: ""
+baseurl: "/website"
 url: ""
 permalink: pretty
 markdown: kramdown
@@ -124,8 +124,8 @@ logo:
   show_logo_image_on_desktop: true
   show_logo_text_on_mobile: false
   show_logo_text_on_desktop: false
-  
-header: 
+
+header:
   fixed: true
 
 darkmode:
@@ -143,12 +143,12 @@ disqus:
 mailchimp:
   form_action_url: https://zerostatic.us13.list-manage.com/subscribe/post?u=675276692aebec1c007f8156d&amp;id=3e3da720c2
 
-contact_form: 
+contact_form:
   use_netlify_form: true
   use_formspree_form: false
   formspree_endpoint: https://formspree.io/f/moqyklqv
 
-menu: 
+menu:
   show_dropdown_items_in_mobile_menu: false
   show_social_media_in_mobile_menu: true
 
@@ -175,4 +175,3 @@ sidebar:
   enable_breadcrumbs_services: true
   enable_sidebar_projects: false
   enable_breadcrumbs_projects: true
-
