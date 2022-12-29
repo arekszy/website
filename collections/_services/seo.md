@@ -1,6 +1,6 @@
 ---
-title: "Automatyka"
-description: "Układy pomiarowe, czujniki oraz komponenty logiczne."
+title: "Automatyka i robotyka"
+description: "Wsparcie Integratorów oraz robotyzacji przemysłu."
 date: 2021-07-23
 weight: 5
 header_transparent: true
@@ -11,8 +11,8 @@ image: "/assets/images/gen/services/service-5.webp"
 
 hero:
   enabled: true
-  heading: "Automatyka"
-  sub_heading: "Układy pomiarowe, czujniki oraz komponenty logiczne."
+  heading: "Automatyka i robotyka"
+  sub_heading: "Wsparcie Integratorów oraz robotyzacji przemysłu."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
