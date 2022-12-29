@@ -1,47 +1,43 @@
 main:
-  - name: Strona główna
+  - name: Home
     url: /
     weight: 1
-  - name: Serwis
+  - name: Services
     url: /services/
     weight: 1
     child:
-      - name: "Elektronika przemysłowa"
-        url: /services/elektronika-przemyslowa/
-      - name: "Ekrany i panele"
-        url: /services/ekrany-panele/
-      - name: "Płyty główne"
-        url: /services/plyty-glowne/
-      - name: "Zasilacze"
-        url: /services/zasilacze/
-      - name: "Komputery i sterowniki"
-        url: /services/komputery-sterowniki/
-      - name: "Inwertery solarne (fotowoltaika)"
-        url: /services/inwertery-fotowoltaika/
-  - name: Technologie
+      - name: "Web Development"
+        url: /services/web-development/
+      - name: "UX"
+        url: /services/user-experience/
+      - name: "Branding"
+        url: /services/branding/
+      - name: "Web Design"
+        url: /services/web-design/
+      - name: "SEO"
+        url: /services/seo/
+      - name: "Software Engineering"
+        url: /services/software-engineering/
+  - name: Projects
     url: /projects/
     weight: 2
     child:
-      - name: "Analiza mikroobrazowa"
-        url: /projects/analiza-mikroobrazowa/
-      - name: "Termowizja"
-        url: /projects/termowizja/
-      - name: "Microsoldering"
-        url: /projects/microsoldering/
-      - name: "Pomiarowanie i symulacja"
-        url: /projects/pomiarowanie-symulacja/
-      - name: "Dokumentacja techniczna"
-        url: /projects/dokumentacja-techniczna/
-      - name: "Board View"
-        url: /projects/board-view/
+      - name: "Modern Office Design"
+        url: /projects/modern-office-design/
+      - name: "Water Works"
+        url: /projects/water-works-project/
+      - name: "Opera House"
+        url: /projects/opera-house/
+      - name: "Subway Signage"
+        url: /projects/subway-signage/
   - name: Blog
     url: /blog/
     weight: 4
-  - name: O nas
+  - name: About
     url: /about/
     weight: 5
-  - name: Kontakt
-    url: /contact/
+  - name: Buy Now
+    url: https://www.zerostatic.io/theme/jekyll-advance/
     weight: 6
 footer_primary:
   - name: Home

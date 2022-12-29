@@ -1,64 +1,71 @@
 ---
 layout: home
 permalink: "/"
-title: "iTech Electronics"
-description: "iTech Electronics - Serwis elektroniki przemysłowej. Kompleksowa obsługa firm. Bydgoszcz"
+title: "Jekyll Advance"
+description: "Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
 header_transparent: true
-meta_title: iTech Electronics - Serwis elektroniki przemysłowej. Kompleksowa obsługa firm. Bydgoszcz
+meta_title: Jekyll Advance - Premium Jekyll Theme
 
 hero:
   enabled: true
-  heading: "Serwis elektroniki przemysłowej"
-  sub_heading: "Kompleksowa obsługa firm."
+  heading: "Jekyll Advance"
+  sub_heading: "Built using highly configurable sections, Advance is a multi-purpose premium Jekyll theme. Modern design, clean code and highly configurable."
   text_color: "#FFFFFF"
   background_color: "#1d2830"
-  background_gradient: false
+  background_gradient: true
   background_image: "/assets/images/gen/home/home-1-large.webp"
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: false
   height: "660px"
   buttons:
-    enabled: true
+    enabled: false
     list:
-      - text: "Tracking naprawy"
-        url: "http://naprawiam.online"
+      - text: "Buy Now"
+        url: "https://www.zerostatic.io/theme/jekyll-advance/"
         external: true
         fa_icon: false
         size: large # "small", "normal", "large"
+        outline: false
+        style: "light" # "light", "dark", "primary"
+      - text: "Documentation"
+        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
+        external: true
+        fa_icon: false
+        size: large
         outline: true
-        style: "dark" # "light", "dark", "primary"
+        style: "light"
 
 services:
   enabled: true
-  heading: "Proces"
+  heading: "Our Services"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
-  view_more_button_text: "OFERTA"
+  view_more_button_text: "View All Services"
   view_more_button_link: "/services"
 
 intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-6-thumbnail.webp"
-  heading: "Zadbamy o ciągłość pracy Twojej organizacji"
+  heading: "We've helped hundreds of people grow their business online."
   sub_heading: ""
   features:
     enabled: true
     list:
-      - text: "Naprawa modułów elektronicznych na poziomie komponentowym"
+      - text: "Configure the homepage sections in front-matter."
         fa_icon: "fas fa-check"
-      - text: "Tracking online"
+      - text: "An advanced hero image section with dozens of design options."
         fa_icon: "fas fa-check"
-      - text: "Dedykowany serwisant"
+      - text: "Fully responsive and SEO optimised."
         fa_icon: "fas fa-check"
-      - text: "Tracking online"
+      - text: "Multiple content types including services, projects, blog and more."
         fa_icon: "fas fa-check"
   buttons:
     enabled: true
     list:
-      - text: "Poznaj iTech"
+      - text: "About Us"
         url: "/about"
         external: false
         fa_icon: ""
@@ -68,25 +75,25 @@ intro:
 
 partners:
   enabled: true
-  limit: 15
+  limit: 5
   sort: "weight" # 'date'
 
 projects:
   enabled: true
-  heading: "Nasze technologie"
+  heading: "Our Projects"
   sub_heading: ""
   limit: 2
   columns: 2
   sort: "weight" # 'date'
-  view_more_button_text: "Więcej..."
+  view_more_button_text: "View All Projects"
   view_more_button_link: "/projects"
 
 outro:
   enabled: true
   align: center
   image: false
-  heading: Jesteś tu pierwszy raz ?
-  sub_heading: "Skontaktuj się z ekspertem."
+  heading: Get Started Today
+  sub_heading: "Save time and money using this premium Jekyll theme."
   features:
     enabled: false
     list:
@@ -95,18 +102,18 @@ outro:
   buttons:
     enabled: true
     list:
-      - text: "Kontakt"
+      - text: "Contact Us"
         url: "/contact"
         external: false
         size: "large"
 
 posts:
   enabled: true
-  heading: "Najnowsze posty"
+  heading: "Latest Posts"
   sub_heading: ""
   limit: 3
   columns: 3
   sort: "weight" # 'date'
-  view_more_button_text: "Więcej..."
+  view_more_button_text: "View All Posts"
   view_more_button_link: "/blog"
 ---
