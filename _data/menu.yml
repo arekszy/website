@@ -1,57 +1,52 @@
 main:
-  - name: Home
-    url: /
-    weight: 1
+  
   - name: Serwis
     url: /services/
     weight: 1
     child:
-      - name: "Web Development"
+      - name: "Elektronika przemysłowa"
         url: /services/web-development/
-      - name: "UX"
+      - name: "Ekrany/Panele dotykowe/HMI"
         url: /services/user-experience/
-      - name: "Branding"
+      - name: "Moduły i płyty główne"
         url: /services/branding/
-      - name: "Web Design"
+      - name: "Systemy sterujące"
         url: /services/web-design/
-      - name: "SEO"
+      - name: "Automatyka"
         url: /services/seo/
-      - name: "Software Engineering"
+      - name: "Urządzenia zasilające"
         url: /services/software-engineering/
-  - name: Projects
+  - name: Technologie
     url: /projects/
     weight: 2
     child:
-      - name: "Modern Office Design"
+      - name: "Termografia"
         url: /projects/modern-office-design/
-      - name: "Water Works"
+      - name: "Analiza mikroobrazowa"
         url: /projects/water-works-project/
-      - name: "Opera House"
+      - name: "Reverse Engineering"
         url: /projects/opera-house/
-      - name: "Subway Signage"
+      - name: "Microsoldering"
         url: /projects/subway-signage/
   - name: Blog
     url: /blog/
     weight: 4
-  - name: About
+  - name: Firma
     url: /about/
     weight: 5
   - name: Tracking
     url: https://naprawiam.online
     weight: 6
 footer_primary:
-  - name: Home
-    url: /
-    weight: 1
   - name: Services
     url: /services/
-    weight: 2
+    weight: 1
   - name: Projects
     url: /projects/
-    weight: 3
+    weight: 2
   - name: Team
     url: /team/
-    weight: 4
+    weight: 3
 footer_secondary:
   - name: Blog
     url: /blog/
@@ -73,9 +68,9 @@ footer_tertiary:
     url: https://www.zerostatic.io/theme/jekyll-advance/
     weight: 3
 bottom:
-  - name: Privacy Policy
+  - name: Polityka prywatności
     url: /privacy-policy/
     weight: 3
-  - name: Terms and Conditions
+  - name: Regulamin
     url: /terms-and-conditions/
     weight: 4

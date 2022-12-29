@@ -1,6 +1,6 @@
 ---
-title: "Branding"
-description: "The expression of a brand including its name, trademark, and visual appearance."
+title: "Moduły i płyty główne"
+description: "Komponenty peryferyjne wspomagające proces technologiczny."
 date: 2019-10-03
 weight: 3
 header_transparent: true

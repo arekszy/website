@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "Our Services"
+  heading: "Specjalizujemy się w serwisie urządzeń przemysłowych:"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'

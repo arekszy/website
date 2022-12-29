@@ -34,9 +34,9 @@ grid:
   columns: 3
 
 intro:
-  enabled: false
+  enabled: true
   align: left
-  image: false
+  image: true
   heading: "A Full Service Agency"
   sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sapien in elit semper accumsan. Pellentesque accumsan ut tortor eu varius. Sed id tincidunt massa, ut egestas orci."
   buttons:

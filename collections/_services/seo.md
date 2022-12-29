@@ -1,6 +1,6 @@
 ---
-title: "SEO"
-description: "Improving search engine rankings through techincal on page SEO and content creation."
+title: "Automatyka"
+description: "Układy pomiarowe, czujniki oraz komponenty logiczne."
 date: 2021-07-23
 weight: 5
 header_transparent: true
@@ -11,8 +11,8 @@ image: "/assets/images/gen/services/service-5.webp"
 
 hero:
   enabled: true
-  heading: "SEO"
-  sub_heading: "Improving search engine rankings through techincal on page SEO and content creation."
+  heading: "Automatyka"
+  sub_heading: "Układy pomiarowe, czujniki oraz komponenty logiczne."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true

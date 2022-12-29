@@ -1,6 +1,6 @@
 ---
-title: "Software Engineering"
-description: "Building complex web applications and system software."
+title: "Zasilanie"
+description: "Przetwornice DC, falowniki oraz pozostałe systemy zasilające."
 date: 2019-10-03
 weight: 6
 header_transparent: true
@@ -11,8 +11,8 @@ image: "/assets/images/gen/services/service-6.webp"
 
 hero:
   enabled: true
-  heading: "Software Engineering"
-  sub_heading: "Building complex web applications and system software."
+  heading: "Zasilanie"
+  sub_heading: "Przetwornice DC, falowniki oraz pozostałe systemy zasilające."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true

@@ -1,6 +1,6 @@
 ---
-title: "Web Design"
-description: "Design beautiful modern websites using the Jamstack."
+title: "Systemy sterujące"
+description: "Sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
 date: 2018-11-28T15:15:34+10:00
 weight: 4
 header_transparent: true
@@ -11,8 +11,8 @@ image: "/assets/images/gen/services/service-4.webp"
 
 hero:
   enabled: true
-  heading: "Web Design"
-  sub_heading: "Design beautiful modern websites using the Jamstack."
+  heading: "Systemy sterujące"
+  sub_heading: "Sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true

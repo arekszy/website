@@ -1,6 +1,6 @@
 ---
-title: "User Experience"
-description: "Understanding the needs of the user and creating product solutions."
+title: "Panele operatorskie"
+description: "Panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
 date: 2018-11-28T15:15:34+10:00
 weight: 2
 header_transparent: true
@@ -10,8 +10,8 @@ image: "/assets/images/gen/services/service-2.webp"
 
 hero:
   enabled: true
-  heading: "User Experience"
-  sub_heading: "Understanding the needs of the user and creating product solutions."
+  heading: "Panele operatorskie"
+  sub_heading: "Panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
   text_color: "#ffffff"
   background_color: ""
   background_gradient: true
