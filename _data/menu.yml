@@ -2,7 +2,7 @@ main:
   - name: Home
     url: /
     weight: 1
-  - name: Services
+  - name: Serwis
     url: /services/
     weight: 1
     child:
@@ -36,8 +36,8 @@ main:
   - name: About
     url: /about/
     weight: 5
-  - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+  - name: Tracking
+    url: https://naprawiam.online
     weight: 6
 footer_primary:
   - name: Home
