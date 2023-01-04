@@ -7,8 +7,8 @@ header_transparent: true
 
 hero:
   enabled: true
-  heading: "Services"
-  sub_heading: "We offer a complete range of digital services."
+  heading: "Serwis"
+  sub_heading: "text"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
@@ -36,9 +36,9 @@ grid:
 intro:
   enabled: true
   align: left
-  image: true
-  heading: "A Full Service Agency"
-  sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sapien in elit semper accumsan. Pellentesque accumsan ut tortor eu varius. Sed id tincidunt massa, ut egestas orci."
+  image: false
+  heading: "text"
+  sub_heading: "text"
   buttons:
     enabled: false
     list:

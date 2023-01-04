@@ -37,6 +37,9 @@ main:
   - name: Tracking
     url: https://naprawiam.online
     weight: 6
+  - name: Kontakt
+    url: /contact
+    weight: 6
 footer_primary:
   - name: Services
     url: /services/

@@ -8,8 +8,8 @@ header_transparent: true
 
 hero:
   enabled: true
-  heading: "Projects"
-  sub_heading: "Our portfolio of work and projects."
+  heading: "Technologie"
+  sub_heading: "text"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
@@ -35,18 +35,18 @@ grid:
   columns: 2
 
 intro:
-  enabled: false
+  enabled: true
   align: left
   image: false
-  heading: "We are a full service digital agency"
-  sub_heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sapien in elit semper accumsan. Pellentesque accumsan ut tortor eu varius. Sed id tincidunt massa, ut egestas orci."
+  heading: "text"
+  sub_heading: "text"
   features:
-    enabled: true
+    enabled: false
     list:
       - text: "Some of our projects are open source"
         fa_icon: false
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "View Github"
         url: "https://github.com/zerostaticthemes"
