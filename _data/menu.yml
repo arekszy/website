@@ -27,7 +27,7 @@ main:
       - name: "Reverse Engineering"
         url: /projects/opera-house/
       - name: "Microsoldering"
-        url: /projects/subway-signage/
+        url: /projects/microsoldering/
   - name: Blog
     url: /blog/
     weight: 4
