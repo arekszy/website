@@ -4,7 +4,7 @@ description: "Technologia militarna w serwisie XXI wieku"
 date: 2018-12-20
 weight: 1
 header_transparent: true
-thumbnail: "/assets/images/gen/projects/project-1-1-thumbnail.webp"
+thumbnail: "/assets/images/gen/projects/10t.jpg"
 image: "/assets/images/gen/projects/project-1-1.webp"
 client: "Zero Developments Pty Ltd"
 

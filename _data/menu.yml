@@ -22,7 +22,7 @@ main:
     child:
       - name: "Termografia"
         url: /projects/modern-office-design/
-      - name: "Analiza mikroobrazowa"
+      - name: "Proces napraw L3"
         url: /projects/water-works-project/
       - name: "Reverse Engineering"
         url: /projects/opera-house/

@@ -1,6 +1,6 @@
 ---
-title: "Opera House"
-description: "A spectacular building, designed by the Valencian architect Santiago Calatrava."
+title: "Reverse Engineering"
+description: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej"
 date: 2018-12-20
 weight: 3
 header_transparent: true

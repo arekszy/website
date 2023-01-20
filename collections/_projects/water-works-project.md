@@ -1,16 +1,16 @@
 ---
-title: "Water Works Revitalisation"
-description: "Breathing new life into old industrial estates"
+title: "Proces napraw L3"
+description: "Naprawa modułów elektronicznych na poziomie mikrokomponentowym"
 date: 2018-12-20
 weight: 2
 header_transparent: true
-thumbnail: "/assets/images/gen/projects/project-2-1-thumbnail.webp"
+thumbnail: "/assets/images/gen/projects/14.jpg"
 image: "/assets/images/gen/projects/project-2-1.webp"
 client: "Brisbane City Council"
 
 hero:
   enabled: true
-  heading: "Analiza mikroobrazowa"
+  heading: "Proces napraw L3"
   sub_heading: "text"
   text_color: "#FFFFFF"
   background_color: ""

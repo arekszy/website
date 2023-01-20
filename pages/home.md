@@ -48,7 +48,7 @@ services:
 intro:
   enabled: true
   align: left
-  image: "/assets/images/gen/content/content-6-thumbnail.webp"
+  image: "/assets/images/gen/content/abstract.png"
   heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:
@@ -91,7 +91,7 @@ partners:
 
 projects:
   enabled: true
-  heading: "technologie"
+  heading: ""
   sub_heading: ""
   limit: 4
   columns: 2
@@ -103,17 +103,17 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: text
-  sub_heading: "text"
+  heading: Opinie
+  sub_heading: "slider"
   features:
     enabled: true
     list:
-      - text: "text"
+      - text: "Jesteś tu pierwszy raz ? Zapraszamy do kontaktu !"
         fa_icon: "fas fa-envelope-open-text"
   buttons:
     enabled: true
     list:
-      - text: "text"
+      - text: "Kontakt"
         url: "/contact"
         external: false
         size: "large"
