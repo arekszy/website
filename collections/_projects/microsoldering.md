@@ -38,7 +38,7 @@ Mikro (stgr. μικρός, mikros – „mały”) – przedrostek w tym kontek�
 Lutowanie jest metodą wykonywania trwałych połączeń mechanicznych oraz elektrycznych przy pomocy lutowia (stop cynowo ołowiany), poprzez nagrzewanie do temperatury wyższej od temperatury topnienia lutu, lecz nie wyższej od temperatury topnienia łączonych elementów. W przypadku napraw elektroniki mówimy o lutowaniu miękkim, nie przekraczającym 450 stopni Celsjusza. 
 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/12.jpg" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
 
 ## Microsoldering w iTech Electronics:
 

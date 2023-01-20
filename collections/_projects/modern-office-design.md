@@ -36,7 +36,7 @@ hero:
 
 Termografia jest techniką rejestracji obrazów, polegającą na detekcji promieniowania w paśmie podczerwieni i w efekcie zamianie go na obraz widzialny dla użytkownika. Daje to możliwość ocenienia rozkładu temperatur oraz ich wartości na powierzchni badanego obiektu lub obszaru. Początkowo technologia ta wykorzystywana była na potrzeby militarne w systemach naprowadzania / śledzenia, by w latach 70 XX w. wejść na rynek cywilny (budownictwo, przemysł, ośrodki badawcze).
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/10.jpg" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
 
 ## Termografia w iTech Electronics :
 

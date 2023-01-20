@@ -2,13 +2,13 @@
 layout: home
 permalink: "/"
 title: "iTech Electronics"
-description: "Serwis elektroniki przemysłowej."
+description: "iTech Electronics - Serwis elektroniki przemysłowej."
 header_transparent: true
 meta_title: Serwis elektroniki przemysłowej
 
 hero:
   enabled: true
-  heading: "Text"
+  heading: "iTech Electronics"
   sub_heading: "Text1"
   text_color: "#FFFFFF"
   background_color: "#38444e"
@@ -17,7 +17,7 @@ hero:
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "660px"
+  height: "440px"
   buttons:
     enabled: false
     list:
@@ -38,34 +38,40 @@ hero:
 
 services:
   enabled: true
-  heading: "text2"
-  sub_heading: "text3"
+  heading: ""
+  sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
-  view_more_button_text: "more"
+  view_more_button_text: "Więcej"
   view_more_button_link: "/services"
 
 intro:
   enabled: true
   align: left
   image: "/assets/images/gen/content/content-6-thumbnail.webp"
-  heading: "text5"
+  heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:
     enabled: true
     list:
-      - text: "text6"
+      - text: "Wyposażenie serwisowe najwyższej klasy"
         fa_icon: "fas fa-check"
-      - text: "text"
+      - text: "Monitorowanie zleceń on-line"
         fa_icon: "fas fa-check"
-      - text: "text"
+      - text: "Technologia napraw komponentowe (Level 3)"
         fa_icon: "fas fa-check"
-      - text: "text"
+      - text: "Gwarancja do 12 miesięcy na usługi serwisowe"
         fa_icon: "fas fa-check"
-      - text: "text"
+      - text: "Skuteczność napraw na poziomie 94%"
+        fa_icon: "fas fa-check"
+      - text: "Innowacyjne metody diagnostyczne"
+        fa_icon: "fas fa-check"
+      - text: "Wieloletnie doświadczenie"
+        fa_icon: "fas fa-check"
+      - text: "Rosnąca społeczność stałych kontrahentów"
         fa_icon: "fas fa-check"
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "text"
         url: "/about"
