@@ -80,7 +80,7 @@ partners:
   list:
       - text: "text6"
         fa_icon: "fas fa-check"
-  limit: 10
+  limit: 20
   sort: "weight" # 'date'
 
 projects:

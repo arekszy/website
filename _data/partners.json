@@ -1,32 +1,92 @@
 [
   {
     "title": "Jekyll",
-    "image": "assets/images/partners/jekyll-mark.png",
+    "image": "assets/images/partners/kuka.png",
     "url": "https://www.zerostatic.io"
   },
   {
     "title": "Netlify",
-    "image": "assets/images/partners/netlify.png",
+    "image": "assets/images/partners/balluff.png",
     "url": "https://www.zerostatic.io"
   },
   {
     "title": "Scss",
-    "image": "assets/images/partners/sass.png",
+    "image": "assets/images/partners/klimatsolec.png",
     "url": "https://www.zerostatic.io"
   },
   {
     "title": "Mailchimp",
-    "image": "assets/images/partners/mailchimp.svg",
+    "image": "assets/images/partners/synbios.png",
     "url": "https://www.zerostatic.io"
   },
   {
     "title": "Github",
-    "image": "assets/images/partners/github.svg",
+    "image": "assets/images/partners/bmt.png",
     "url": "https://www.zerostatic.io"
   },
   {
     "title": "Algolia",
-    "image": "assets/images/partners/algolia.svg",
+    "image": "assets/images/partners/aodc.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/ipoint.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/rotax.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/snws.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/DDD.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/tpp.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/pe.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/keeeper.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/comfort.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/rnew.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/novacode.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/aviation.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Algolia",
+    "image": "assets/images/partners/comfort.png",
     "url": "https://www.zerostatic.io"
   }
 ]

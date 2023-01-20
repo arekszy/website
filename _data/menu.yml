@@ -34,7 +34,7 @@ main:
   - name: Firma
     url: /about/
     weight: 5
-  - name: Track
+  - name: Tracking
     url: https://naprawiam.online
     weight: 6
   - name: Kontakt

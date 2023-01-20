@@ -3,7 +3,7 @@ layout: post
 title: "Hosting Your Static Site"
 date: 2018-09-13T05:22:42Z
 authors: ["Sage Kirk", "Mike Vance"]
-categories: ["Hosting", "Development"]
+categories: ["Automatyka", "Robotyka"]
 description: "Hosting your website as a static site will improve performance and improve security."
 thumbnail: "/assets/images/gen/blog/blog-1-thumbnail.webp"
 image: "/assets/images/gen/blog/blog-1.webp"
