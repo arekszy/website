@@ -1,92 +1,147 @@
 [
   {
-    "title": "Jekyll",
+    "title": "KUKA",
     "image": "assets/images/partners/kuka.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Netlify",
+    "title": "Balluff",
     "image": "assets/images/partners/balluff.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Scss",
+    "title": "Klimat Solec",
     "image": "assets/images/partners/klimatsolec.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Mailchimp",
+    "title": "Synbios",
     "image": "assets/images/partners/synbios.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Github",
+    "title": "BMT",
     "image": "assets/images/partners/bmt.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "AODC",
     "image": "assets/images/partners/aodc.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "iPoint",
     "image": "assets/images/partners/ipoint.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "Rotax",
     "image": "assets/images/partners/rotax.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "SNWS",
     "image": "assets/images/partners/snws.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "DDD Perfekt",
     "image": "assets/images/partners/DDD.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "TPP Thermoplastics",
     "image": "assets/images/partners/tpp.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "playableelectronics",
     "image": "assets/images/partners/pe.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "Keeeper",
     "image": "assets/images/partners/keeeper.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "Comfort-Air",
     "image": "assets/images/partners/comfort.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "Rnew",
     "image": "assets/images/partners/rnew.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
-    "image": "assets/images/partners/novacode.png",
+    "title": "Novacode",
+    "image": "assets/images/partners/novacode.svg",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
+    "title": "Adriana-Aviation",
     "image": "assets/images/partners/aviation.png",
     "url": "https://www.zerostatic.io"
   },
   {
-    "title": "Algolia",
-    "image": "assets/images/partners/comfort.png",
+    "title": "Wilhelm Herm Muller",
+    "image": "assets/images/partners/whm.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Reconext",
+    "image": "assets/images/partners/reconext.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Werude",
+    "image": "assets/images/partners/werude.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Metalwit",
+    "image": "assets/images/partners/metalwit.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Kobylarnia",
+    "image": "assets/images/partners/kobylarnia.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
+    "url": "https://www.zerostatic.io"
+  },
+  {
+    "title": "Agrotex",
+    "image": "assets/images/partners/agrotex.png",
     "url": "https://www.zerostatic.io"
   }
 ]
