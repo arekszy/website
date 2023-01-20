@@ -1,6 +1,6 @@
 ---
 title: "Microsoldering"
-description: "Technologie w iTech Electronics - Microsoldering"
+description: "Małe rzeczy – duże znaczenie"
 date: 2023-01-01
 weight: 4
 header_transparent: false
