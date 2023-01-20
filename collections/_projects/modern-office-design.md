@@ -1,6 +1,6 @@
 ---
-title: "Modern Office Design"
-description: "In contrast subsymbolic processing specifies no such rules a priori and relies on emergent properties of processing units"
+title: "Termografia"
+description: "Technologia militarna w serwisie XXI wieku"
 date: 2018-12-20
 weight: 1
 header_transparent: true
@@ -11,7 +11,7 @@ client: "Zero Developments Pty Ltd"
 hero:
   enabled: true
   heading: "Termografia"
-  sub_heading: "text"
+  sub_heading: "Technologia militarna w serwisie XXI wieku"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false
@@ -32,36 +32,35 @@ hero:
         style: "primary"
 ---
 
-## title
+## Czym jest termografia?
 
-text
+Termografia jest techniką rejestracji obrazów, polegającą na detekcji promieniowania w paśmie podczerwieni i w efekcie zamianie go na obraz widzialny dla użytkownika. Daje to możliwość ocenienia rozkładu temperatur oraz ich wartości na powierzchni badanego obiektu lub obszaru. Początkowo technologia ta wykorzystywana była na potrzeby militarne w systemach naprowadzania / śledzenia, by w latach 70 XX w. wejść na rynek cywilny (budownictwo, przemysł, ośrodki badawcze).
 
 {% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
 
-## title
+## Termografia w iTech Electronics :
 
-text
+Usterki na płycie głównej związane są najczęściej z punktowym wzrostem temperatury, występującym w krótkim czasie. Proces ten, z uwagi na powyższą charakterystykę, jest niedostrzegalny dla człowieka. Stąd kamera termowizyjna we współczesnym serwisie pełni kluczową rolę.
 
-> quote
+> Dzięki jakości obrazu, czułości oraz częstotliwości odświeżania, pozwala radykalnie zmniejszyć sektor poszukiwań, a nawet celnie namierzyć uszkodzony komponent na płycie głównej. Skutkuje to blisko 80% skróceniem czasu, potrzebnego na dokonanie diagnostyki Twojego urządzenia.
 
-text
 
 {% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
 
-## title
+## Czym dysponujemy? 
 
-text
-### title
+Zaawansowane naprawy wymagają zaawansowanego parku narzędziowego. Z tego względu zdecydowaliśmy się na produkt wykonany przez lidera światowego rynku urządzeń termowizyjnych, kamerę FLIR A35. Firma FLIR działa w przemyśle zbrojeniowym i kosmicznym, dostarczając najnowocześniejsze rozwiązania technologiczne. Jako ciekawostkę można podać fakt, że w 2020 roku, aż 31% jej przychodów pochodziło od rządu federalnego Stanów Zjednoczonych i jego agencji.
 
-text
+> FLIR A35 tworzy wysokiej jakości obrazy termiczne o rozdzielczości 81 920 pikseli, które mogą pokazać różnice temperatur rzędu 50 mK. 
 
-### title
+### Specyfikacja systemu termowizyjnego:
 
-text
-
-### markdown
-
-text
-
-- text
+- Rozdzielczość detektora	320x256 pikseli
+- Czułość termiczna (NETD)	<0,05°C @ 30°C (50 mK)
+- Pole widzenia (FOV)	69°x56°
+- Minimalna odległość ostrości	3,2 cm
+- Długość ogniskowej	9 mm
+- Rozdzielczość przestrzenna (IFOV)	3,8 mRad
+- F-numer	1,4
+- Detektor - niechłodzony mikrobolometr, VOx
 
