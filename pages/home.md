@@ -58,7 +58,7 @@ intro:
         fa_icon: "fas fa-check"
       - text: "Monitorowanie zleceń on-line"
         fa_icon: "fas fa-check"
-      - text: "Technologia napraw komponentowe (Level 3)"
+      - text: "Naprawy na poziomie mikrokomponentowym (Level 3)"
         fa_icon: "fas fa-check"
       - text: "Gwarancja do 12 miesięcy na usługi serwisowe"
         fa_icon: "fas fa-check"
