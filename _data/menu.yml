@@ -5,9 +5,9 @@ main:
     weight: 1
     child:
       - name: "Elektronika przemysłowa"
-        url: /services/web-development/
+        url: /services/industrial-electronics/
       - name: "Ekrany/Panele dotykowe/HMI"
-        url: /services/user-experience/
+        url: /services/displays/
       - name: "Moduły i płyty główne"
         url: /services/branding/
       - name: "Systemy sterujące"
@@ -21,9 +21,9 @@ main:
     weight: 2
     child:
       - name: "Termografia"
-        url: /projects/modern-office-design/
+        url: /projects/thermography/
       - name: "Proces napraw L3"
-        url: /projects/water-works-project/
+        url: /projects/circuits/
       - name: "Reverse Engineering"
         url: /projects/opera-house/
       - name: "Microsoldering"
@@ -41,23 +41,23 @@ main:
     url: /contact
     weight: 6
 footer_primary:
-  - name: Services
+  - name: Usługi
     url: /services/
     weight: 1
-  - name: Projects
+  - name: Technologie
     url: /projects/
     weight: 2
-  - name: Team
-    url: /team/
-    weight: 3
-footer_secondary:
   - name: Blog
     url: /blog/
+    weight: 3
+footer_secondary:
+  - name: Firma
+    url: /blog/
     weight: 1
-  - name: About
-    url: /about/
+  - name: Tracking
+    url: https://naprawiam.online
     weight: 2
-  - name: Contact
+  - name: Kontakt
     url: /contact/
     weight: 3
 footer_tertiary:
@@ -68,7 +68,7 @@ footer_tertiary:
     url: /terms-and-conditions/
     weight: 2
   - name: Buy Now
-    url: https://www.zerostatic.io/theme/jekyll-advance/
+    url: 
     weight: 3
 bottom:
   - name: Polityka prywatności

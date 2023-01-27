@@ -1,6 +1,6 @@
 ---
 title: "Microsoldering"
-description: "Małe rzeczy – duże znaczenie"
+description: "Małe rzeczy – wielkie znaczenie"
 date: 2023-01-01
 weight: 4
 header_transparent: false
@@ -11,7 +11,7 @@ client: "RGA Agency"
 hero:
   enabled: true
   heading: "Microsoldering"
-  sub_heading: "Małe rzeczy – duże znaczenie"
+  sub_heading: "Małe rzeczy – wielkie znaczenie"
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: false

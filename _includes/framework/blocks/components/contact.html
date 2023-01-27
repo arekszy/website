@@ -3,13 +3,13 @@
 <div class="contact">
   {% if contact.email and contact.email != "" %}
     <div class="contact-email">
-      <strong>Email:</strong>
+      <strong>Poczta:</strong>
       <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
     </div>
   {% endif %}
   {% if contact.phone and contact.phone != "" %}
     <div class="contact-phone">
-      <strong>Phone:</strong>
+      <strong>Telefon:</strong>
       {{ contact.phone }}</div>
   {% endif %}
   {% if contact.fax and contact.fax != "" %}
@@ -19,11 +19,11 @@
   {% endif %}
   {% if contact.address and contact.address != "" %}
     <div class="contact-address">
-      <strong>Address:</strong>
+      <strong>Siedziba:</strong>
       {{ contact.address }}
     </div>
   {% endif %}
   {% if contact.map_link %}
-    <a href="{{ contact.map_link }}" target="_blank" rel="noreferrer">(View Map)</a>
+    <a href="{{ contact.map_link }}" target="_blank" rel="noreferrer">(Mapy Google)</a>
   {% endif %}
 </div>
