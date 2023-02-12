@@ -48,7 +48,7 @@ services:
 intro:
   enabled: true
   align: left
-  image: "/assets/images/gen/content/abstract.png"
+  image: "/assets/images/gen/content/abstract.webp"
   heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:

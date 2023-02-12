@@ -14,13 +14,13 @@ hero:
   heading: "Zasilanie"
   sub_heading: "Przetwornice DC, falowniki oraz pozostałe systemy zasilające."
   text_color: "#ffffff"
-  background_color: ""
-  background_gradient: true
+  background_color: "#222222"
+  background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/service-6.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 660px
+  height: 500px
   buttons:
     enabled: false
     list:

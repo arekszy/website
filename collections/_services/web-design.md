@@ -14,13 +14,13 @@ hero:
   heading: "Systemy sterujące"
   sub_heading: "Sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
   text_color: "#ffffff"
-  background_color: ""
-  background_gradient: true
+  background_color: "#222222"
+  background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/service-4-large.webp"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: 660px;
+  height: 500px;
   buttons:
     enabled: false
     list:

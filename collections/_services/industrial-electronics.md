@@ -14,13 +14,13 @@ hero:
   heading: "Elektronika przemysłowa"
   sub_heading: "Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych."
   text_color: "#FFFFFF"
-  background_color: "#555555"
+  background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/service-1-large.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 660px
+  height: 500px
   buttons:
     enabled: false
     list:
@@ -35,9 +35,9 @@ hero:
 
 # Serwis elektroniki przemysłowej
 
-Naprawa elektroniki przemysłowej jest procesem polegającym na diagnozowaniu i usuwaniu usterek w elektronicznych urządzeniach przemysłowych. Elektronika przemysłowa jest szerokim pojęciem, obejmującym różnego rodzaju urządzenia, takie jak automaty przemysłowe, roboty, sterowniki, systemy kontroli/pomiarowe, urządzenia zasilające itp.
+Elektronika przemysłowa jest szerokim pojęciem, obejmującym różnego rodzaju urządzenia, takie jak automaty przemysłowe, roboty, sterowniki, systemy kontroli/pomiarowe, urządzenia zasilające itp.
 
-Diagnozowanie usterek w elektronice przemysłowej jest skomplikowane i wymaga specjalistycznej wiedzy i umiejętności. Wymaga użycia specjalistycznych narzędzi i sprzętu, takiego jak oscyloskopy, analizatory sygnałów, mierniki, systemy wizyjne itp.
+Diagnozowanie usterek w elektronice przemysłowej jest skomplikowane i wymaga odpowiedniego poziomu wiedzy i zdobytego doświadczenia. Konieczne jest wykorzystanie specjalistycznych narzędzi i sprzętu, takiego jak oscyloskopy, analizatory sygnałów, mierniki, systemy wizyjne itp.
 
 
 
@@ -59,7 +59,7 @@ Po otrzymaniu przedmiotu zlecenia, proces serwisowy obejmuje różnego rodzaju d
 
 - Regeneracja uszkodzonych połączeń drukowanych
 
-- Naprawa lub wymiana uszkodzonych elementów mechanicznych, takich jak enkodery, sensory itp.
+- Naprawa lub wymiana uszkodzonych elementów elektromechanicznych, takich jak enkodery, sensory itp.
 
 - Test symulacyjny w laboratorium iTech Electronics / test z wykorzystaniem infrastruktury peryferyjnej w siedzibie firmy Kontrahenta
 
@@ -68,7 +68,7 @@ Po otrzymaniu przedmiotu zlecenia, proces serwisowy obejmuje różnego rodzaju d
 
 Poniższa grafika obrazuje proces obsługi zlecenia end-to-end:
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="Proces serwisowy end-to-end" caption="Dotyczy usług naprawczych wykonywanych stacjonarnie w laboratorium iTech Electronics" alt="Photo of designing a website in Figma" link="" target="_blank" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/proces.webp" title="Proces serwisowy end-to-end" caption="Dotyczy usług naprawczych wykonywanych stacjonarnie w laboratorium iTech Electronics" %}
 
 > Mając na uwadze unikalność rozwiązań stosowanych w poszczególnych branżach, nieustannie aktualizujemy bazę wiedzy i park narzędziowy, co wpływa na poziom skuteczności oferowanych usług.
 
@@ -86,5 +86,5 @@ Poniższa grafika obrazuje proces obsługi zlecenia end-to-end:
 
 # Szczegóły dotyczące typów oferowanych usług są dostępne w karcie "Serwis".
 
-
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/worker.jpg" %}
 

@@ -9,7 +9,7 @@ main:
       - name: "Ekrany/Panele dotykowe/HMI"
         url: /services/displays/
       - name: "Moduły i płyty główne"
-        url: /services/branding/
+        url: /services/motherboards/
       - name: "Systemy sterujące"
         url: /services/web-design/
       - name: "Automatyka"

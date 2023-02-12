@@ -13,13 +13,13 @@ hero:
   heading: "Panele operatorskie"
   sub_heading: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
   text_color: "#ffffff"
-  background_color: "#555555"
+  background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/service-2.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 660px
+  height: 500px
   buttons:
     enabled: false
     list:
@@ -44,7 +44,7 @@ Usterka tego komponentu często prowadzi do skutecznego unieruchomienia procesu 
 
 - Brak obrazu
 - Brak reakcji na dotyk
-- Brak reakcji na interakcję przy użyciu klawiatury lokalnej
+- Niemożliwa interakcja przy użyciu klawiatury lokalnej
 - Brak podświetlenia
 - Artefakty
 - Biały/czarny ekran
@@ -55,11 +55,11 @@ Usterka tego komponentu często prowadzi do skutecznego unieruchomienia procesu 
 - Uszkodzone złącze
 - Uszkodzenie modułu podtrzymania pamięci/RTC
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="System sterujący HMI" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/hmi.webp" title="System sterujący HMI" caption="" %}
 
 
 
-W celu zlecenia naprawy prosimy o uprzednią informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
+W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
 
 
 ### Godziny pracy serwisu:
@@ -68,5 +68,5 @@ Pn-Czw 10:00-17:00
 
 Pt 10:00-15:00
 
-{% include framework/shortcodes/youtube.html id='cxt0JYw8ZBU' %}
+
 

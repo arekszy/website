@@ -36,7 +36,7 @@ hero:
 
 Termografia jest techniką rejestracji obrazów, polegającą na detekcji promieniowania w paśmie podczerwieni i w efekcie zamianie go na obraz widzialny dla użytkownika. Daje to możliwość ocenienia rozkładu temperatur oraz ich wartości na powierzchni badanego obiektu lub obszaru. Początkowo technologia ta wykorzystywana była na potrzeby militarne w systemach naprowadzania / śledzenia, by w latach 70 XX w. wejść na rynek cywilny (budownictwo, przemysł, ośrodki badawcze).
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/10.jpg" title="Badanie termowizyjne HD"  caption="Pomiar wykazał zwarcie na drenie CPU Vcore." alt="Photo of designing a website in Figma" link="" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/10.jpg" title="Badanie termowizyjne HD"  caption="Pomiar wykazał zwarcie na drenie CPU Vcore."%}
 
 ## Termografia w iTech Electronics :
 
@@ -45,7 +45,8 @@ Zwarcia na płycie głównej związane są najczęściej z punktowym wzrostem te
 > Dzięki jakości obrazu, czułości oraz częstotliwości odświeżania, pozwala radykalnie zmniejszyć sektor poszukiwań, a nawet celnie namierzyć uszkodzony komponent na płycie głównej. Skutkuje to blisko 80% skróceniem czasu potrzebnego na dokonanie diagnostyki Twojego urządzenia, oraz ma wpływ na obniżenie kosztów obsługi serwisowej.
 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/1.jpg" title="Badanie termowizyjne HD"  caption="Urządzenie uszkodzone w wyniku zalania."%}
+
 
 ## Czym dysponujemy? 
 
@@ -63,4 +64,5 @@ Zaawansowane naprawy wymagają zaawansowanego parku narzędziowego. Z tego wzgl�
 - Rozdzielczość przestrzenna (IFOV)	3,8 mRad
 - F-numer	1,4
 - Detektor - niechłodzony mikrobolometr, VOx
+
 
