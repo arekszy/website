@@ -9,7 +9,7 @@ meta_title: Serwis elektroniki przemysłowej
 hero:
   enabled: true
   heading: "iTech Electronics"
-  sub_heading: "Text1"
+  sub_heading: "Serwis elektroniki przemysłowej. Wsparcie automatyzacji."
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: ""
+  heading: "CZYM SIĘ ZAJMUJEMY?"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'

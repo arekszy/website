@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Services
-description: "A selection of our digital services"
+title: Serwis
+description: "Spektrum oferowanych usług"
 permalink: "/services/"
 header_transparent: true
 
@@ -34,7 +34,7 @@ grid:
   columns: 3
 
 intro:
-  enabled: true
+  enabled: false
   align: left
   image: false
   heading: "text"

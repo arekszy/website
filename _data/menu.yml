@@ -25,7 +25,7 @@ main:
       - name: "Proces napraw L3"
         url: /projects/circuits/
       - name: "Reverse Engineering"
-        url: /projects/opera-house/
+        url: /projects/reverse-engineering/
       - name: "Microsoldering"
         url: /projects/microsoldering/
   - name: Blog
