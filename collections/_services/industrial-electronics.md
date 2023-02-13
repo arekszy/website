@@ -6,8 +6,8 @@ weight: 1
 header_transparent: true
 fa_icon: false
 icon: "assets/images/icons/icons8-source-code-100.png"
-thumbnail: "/assets/images/gen/services/service-1-thumbnail.webp"
-image: "/assets/images/gen/services/service-1.webp"
+thumbnail: "/assets/images/gen/services/industrialt.webp"
+image: ""
 
 hero:
   enabled: true
@@ -17,7 +17,7 @@ hero:
   background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/service-1-large.webp"
+  background_image: "/assets/images/gen/services/industrial.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 500px

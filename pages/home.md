@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "CZYM SIĘ ZAJMUJEMY?"
+  heading: ""
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
@@ -48,7 +48,7 @@ services:
 intro:
   enabled: true
   align: left
-  image: "/assets/images/gen/content/abstract.webp"
+  image: "/assets/images/gen/content/features.webp"
   heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:

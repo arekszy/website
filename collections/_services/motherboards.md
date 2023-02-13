@@ -6,8 +6,8 @@ weight: 3
 header_transparent: true
 fa_icon: false
 icon: "assets/images/icons/icons8-color-palette-100.png"
-thumbnail: "/assets/images/gen/services/bgpcb.jpg"
-image: "/assets/images/gen/services/bgpcb.jpg"
+thumbnail: "/assets/images/gen/services/bgpcbt.webp"
+image: "/assets/images/gen/services/bgpcb.webp"
 
 hero:
   enabled: true
@@ -17,7 +17,7 @@ hero:
   background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/bgpcb.jpg"
+  background_image: "/assets/images/gen/services/bgpcb.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 500px

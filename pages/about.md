@@ -5,12 +5,12 @@ date: 2018-11-28T15:15:34+10:00
 header_transparent: true
 permalink: "/about/"
 description: "text"
-image: "/assets/images/gen/content/content-5.webp"
+image: ""
 
 hero:
   enabled: true
-  heading: "About Us"
-  sub_heading: "text"
+  heading: "O firmie"
+  sub_heading: ""
   background_image: true
   background_image_blend_mode: false
   background_image: "/assets/images/gen/home/home-1-large.webp"
@@ -26,37 +26,17 @@ hero:
         size: large
 ---
 
-# title
+# Poznaj serwis iTech Electronics !
+Serwis iTech Electronics wykorzystuje doświadczenie oraz innowacyjne metody diagnostyczne z użyciem nowoczesnych rozwiązań technologicznych, takich jak np. badania termograficzne i mikroobrazowe. Dzięki temu iTech przeprowadzi naprawę Twojego urządzenia nawet na poziomie komponentowym, co pozwoli uchronić przed wymianą drogiego lub niedostępnego modułu od producenta (na przykład płyty głównej) oraz zmniejszy generalny koszt naprawy.
 
-text
+>Pracujemy na narzędziach renomowanych producentów takich jak Fluke, JBC, Agilent Technologies, Rigol, Quick oraz FLIR.
 
-## subtitle
+Wyposażenie serwisowe z najwyższej półki, szeroka dokumentacja techniczna oraz wiedza doświadczonych serwisantów, pozwalają efektywnie ustalić usterkę oraz przyczynę źródłową problemu, oraz wdrożyć rozwiązania prewencyjne zapobiegające powróceniu tej samej usterki.
 
-text
+>Wygodny system monitorowania naprawy pozwoli Ci na śledzenie procesu obsługi od momentu zgłoszenia do zakończenia naprawy.
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="text" caption="text" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+Po przeprowadzeniu usługi serwisowej otrzymasz szczegółowy protokół zawierający wszystkie istotne informacje. W wyjątkowych sytuacjach oferujemy usługę naprawy ekspresowej - poza kolejką.
 
-## Subtitle
+Priorytetem firmy jest najwyższa jakość świadczonych usług oraz możliwie najszybsza realizacja. Wszystko to, z gwarancją nawet do 12 miesięcy. Zapraszamy do zapoznania się z naszą ofertą.
 
-text
-> quote
-
-text
-
-## subtitle
-
-text
-{% include framework/shortcodes/youtube.html id='cxt0JYw8ZBU' %}
-
-## subtitle
-
-text
-- text
-- text
-- text
-
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/content-1.webp" title="text" caption="text" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
-
-![Design In Figma](/assets/images/gen/content/content-1.webp)
-
-text
+## Świadczymy usługi na terenie całego kraju drogą wysyłkową.
