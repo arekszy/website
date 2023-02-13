@@ -8,7 +8,7 @@ header_transparent: true
 hero:
   enabled: true
   heading: "Serwis"
-  sub_heading: "text"
+  sub_heading: "Zrobimy wszystko aby Ci pomóc."
   text_color: "#FFFFFF"
   background_color: ""
   background_gradient: true
@@ -52,12 +52,12 @@ outro:
   enabled: true
   align: left
   image: false
-  heading: "Ready to get started?"
-  sub_heading: "Contact us today for a free quote!"
+  heading: "Jesteś tu pierwszy raz ?"
+  sub_heading: "Skontaktuj się z Nami !"
   buttons:
     enabled: true
     list:
-      - text: "Get A Quote"
+      - text: "Kontakt"
         url: "/contact"
         external: false
         fa_icon: false

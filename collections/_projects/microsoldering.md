@@ -4,7 +4,7 @@ description: "Małe rzeczy – wielkie znaczenie"
 date: 2023-01-01
 weight: 4
 header_transparent: false
-thumbnail: "/assets/images/gen/projects/project-4-1-thumbnail.webp"
+thumbnail: "/assets/images/gen/projects/microsolderingt.webp"
 image: "/assets/images/gen/projects/project-4-1.webp"
 client: "RGA Agency"
 
@@ -13,13 +13,13 @@ hero:
   heading: "Microsoldering"
   sub_heading: "Małe rzeczy – wielkie znaczenie"
   text_color: "#FFFFFF"
-  background_color: ""
+  background_color: "#222222"
   background_gradient: false
-  background_image: "/assets/images/gen/projects/project-4-6.webp"
-  background_image_blend_mode: false
+  background_image: "/assets/images/gen/projects/microsolderingb.webp"
+  background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "600px"
+  height: "500px"
   buttons:
     enabled: false
     list:

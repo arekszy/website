@@ -84,7 +84,8 @@ Poniższa grafika obrazuje proces obsługi zlecenia end-to-end:
 - Brak ryzyka utraty kluczowych danych z pamięci nieulotnej w przypadku braku kopii zapasowej
 - Czas to pieniądz - a naprawa często bywa szybsza, niż import nowego egzemplarza
 
-# Szczegóły dotyczące typów oferowanych usług są dostępne w karcie "Serwis".
+### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
+
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/worker.jpg" %}
 

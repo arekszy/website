@@ -13,12 +13,13 @@ hero:
   heading: "Proces napraw L3"
   sub_heading: "text"
   text_color: "#FFFFFF"
-  background_color: ""
+  background_color: "#222222"
   background_gradient: false
-  background_image: "/assets/images/gen/projects/project-2-1.webp"
-  background_image_blend_mode: false
+  background_image: "/assets/images/gen/projects/14b.webp"
+  background_image_blend_mode: overlay
   fullscreen_mobile: false
-  fullscreen_desktop: true
+  fullscreen_desktop: false
+  height: "500px"
   buttons:
     enabled: false
     list:

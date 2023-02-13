@@ -9,7 +9,7 @@ meta_title: Serwis elektroniki przemysłowej
 hero:
   enabled: true
   heading: "iTech Electronics"
-  sub_heading: "Serwis elektroniki przemysłowej. Wsparcie automatyzacji."
+  sub_heading: "Serwis elektroniki przemysłowej. Wsparcie automatyki i robotyzacji."
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false
@@ -19,17 +19,17 @@ hero:
   fullscreen_desktop: true
   height: "440px"
   buttons:
-    enabled: false
+    enabled: true
     list:
-      - text: "text"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
+      - text: "Zadzwoń"
+        url: "tel://+48501501106"
         external: true
         fa_icon: false
-        size: large # "small", "normal", "large"
+        size: small # "small", "normal", "large"
         outline: false
         style: "light" # "light", "dark", "primary"
-      - text: "text"
-        url: "https://www.zerostatic.io/docs/jekyll-advance/v2.0/"
+      - text: "Email"
+        url: "mailto:biuro@itechelectronics.pl"
         external: true
         fa_icon: false
         size: large
@@ -96,7 +96,7 @@ projects:
   limit: 4
   columns: 2
   sort: "weight" # 'date'
-  view_more_button_text: "text"
+  view_more_button_text: "Technologie"
   view_more_button_link: "/projects"
 
 outro:

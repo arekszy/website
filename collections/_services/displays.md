@@ -67,6 +67,3 @@ W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w 
 Pn-Czw 10:00-17:00
 
 Pt 10:00-15:00
-
-
-

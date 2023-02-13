@@ -13,13 +13,13 @@ hero:
   heading: "Termografia"
   sub_heading: "Technologia militarna w serwisie XXI wieku"
   text_color: "#FFFFFF"
-  background_color: ""
+  background_color: "#222222"
   background_gradient: false
-  background_image: "/assets/images/gen/projects/project-1-1.webp"
-  background_image_blend_mode: false
+  background_image: "/assets/images/gen/projects/10b.webp"
+  background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "600px"
+  height: "500px"
   buttons:
     enabled: false
     list:
