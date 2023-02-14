@@ -34,11 +34,11 @@ hero:
 
 ## Czym jest microsoldering (mikrolutowanie) ?
 
-Mikro (stgr. μικρός, mikros – „mały”) – przedrostek w tym kontekście informuje, że dostęp do obszaru pracy może być utrudniony, komponenty są mikroskopijnych rozmiarów, a do poprawnego wykonania całej operacji potrzebny jest dedykowany sprzęt.
+Mikro (mikros – „mały”) – przedrostek w tym kontekście informuje, że dostęp do obszaru pracy może być utrudniony, komponenty są mikroskopijnych rozmiarów, a do poprawnego wykonania całej operacji potrzebny jest dedykowany sprzęt.
 Lutowanie jest metodą wykonywania trwałych połączeń mechanicznych oraz elektrycznych przy pomocy lutowia (stop cynowo ołowiany), poprzez nagrzewanie do temperatury wyższej od temperatury topnienia lutu, lecz nie wyższej od temperatury topnienia łączonych elementów. W przypadku napraw elektroniki mówimy o lutowaniu miękkim, nie przekraczającym 450 stopni Celsjusza. 
 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/12.jpg" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/12.jpg" title="Wymiana mikrokomponentu SMD"  caption="Operacja lutownicza wykonana przy użyciu stacji JBC NASE-2C" %}
 
 ## Microsoldering w iTech Electronics:
 
@@ -48,7 +48,7 @@ Postęp technologiczny ściśle powiązany jest z miniaturyzacją. Większa ilo�
 
 Praca w takim środowisku wymaga wiedzy, chirurgicznej precyzji oraz specjalistycznego parku sprzętowego. W iTech Electronics posiadamy wszystkie w/w składowe, potrzebne do skutecznej naprawy Twojego urządzenia na poziomie mikrokomponentowym.
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Wymiana układu BGA"  caption="Operacja lutownicza wykonana z użyciem profesjonalnych stacji lutowniczych dostarczonych przez firmę JBC" %}
 
 ## Czym dysponujemy:
 
@@ -58,7 +58,8 @@ Innowacyjność, niezawodność oraz wydajność – takich cech oczekujemy od s
 
 Skompresowana konstrukcja narzędzi z serii NANO wraz z szerokim wyborem grotów pozwalają dostosować się do najmniejszych obszarów roboczych. Stabilizacja temperatury grotu oraz prędkość jego nagrzewania skracają czas operacji na laminacie, maksymalizując efektywność oraz bezpieczeństwo.
 
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/smd.webp" title="Rozmiary komponentów SMD"  caption="iTech Electronics wykonuje naprawy płyt głównych na poziomie mikrokomponentowym" %}
 
 
 
-
+### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.

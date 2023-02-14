@@ -53,7 +53,7 @@ Po otrzymaniu przedmiotu zlecenia, proces serwisowy obejmuje różnego rodzaju d
 
 - Analiza dokumentacji serwisowej i Board View
 
-- Ustalenie przyczyny źródłowej "root cause" powstania usterki w celu wdrożenia rozwiązań zapobiegających powróceniu tej samej usterki
+- Ustalenie przyczyny źródłowej "root cause" powstania usterki w celu wdrożenia rozwiązań zapobiegających jej powróceniu
 
 - Wymiana uszkodzonych komponentów, takich jak tranzystory, diody, rezystory, układy scalone itp.
 
@@ -84,7 +84,7 @@ Poniższa grafika obrazuje proces obsługi zlecenia end-to-end:
 - Brak ryzyka utraty kluczowych danych z pamięci nieulotnej w przypadku braku kopii zapasowej
 - Czas to pieniądz - a naprawa często bywa szybsza, niż import nowego egzemplarza
 
-### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
+### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
 
 
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/worker.jpg" %}

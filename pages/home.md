@@ -17,9 +17,9 @@ hero:
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "440px"
+  height: "660px"
   buttons:
-    enabled: true
+    enabled: false
     list:
       - text: "Zadzwoń"
         url: "tel://+48501501106"
@@ -42,7 +42,7 @@ services:
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
-  view_more_button_text: "Więcej"
+  view_more_button_text: "Oferta"
   view_more_button_link: "/services"
 
 intro:
@@ -55,21 +55,21 @@ intro:
     enabled: true
     list:
       - text: "Wyposażenie serwisowe najwyższej klasy"
-        fa_icon: "fas fa-check"
+        fa_icon: "fa-solid fa-screwdriver-wrench"
       - text: "Monitorowanie zleceń on-line"
-        fa_icon: "fas fa-check"
+        fa_icon: "fa-solid fa-display"
       - text: "Naprawy na poziomie mikrokomponentowym (Level 3)"
-        fa_icon: "fas fa-check"
-      - text: "Gwarancja do 12 miesięcy na usługi serwisowe"
-        fa_icon: "fas fa-check"
+        fa_icon: "fas fa-microscope"
+      - text: "Nawet 12 miesięcy gwarancji na usługi serwisowe"
+        fa_icon: "fas fa-user-check"
       - text: "Skuteczność napraw na poziomie 94%"
-        fa_icon: "fas fa-check"
+        fa_icon: "fas fa-thumbs-up"
       - text: "Innowacyjne metody diagnostyczne"
-        fa_icon: "fas fa-check"
+        fa_icon: "fas fa-toolbox"
       - text: "Wieloletnie doświadczenie"
-        fa_icon: "fas fa-check"
+        fa_icon: "fas fa-university"
       - text: "Rosnąca społeczność stałych kontrahentów"
-        fa_icon: "fas fa-check"
+        fa_icon: "fas fa-smile"
   buttons:
     enabled: false
     list:

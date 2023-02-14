@@ -11,7 +11,7 @@ client: "Brisbane City Council"
 hero:
   enabled: true
   heading: "Proces napraw L3"
-  sub_heading: "text"
+  sub_heading: "Naprawiamy moduły elektroniczne na poziomie mikrokomponentowym."
   text_color: "#FFFFFF"
   background_color: "#222222"
   background_gradient: false
@@ -32,35 +32,74 @@ hero:
         style: "primary"
 ---
 
-## title
+## Czym jest naprawa Level 3 ?
 
-text
+### Naprawa poziomu trzeciego jest jednym z najbardziej skomplikowanych procesów w branży serwisowej. 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-2.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+Każdego dnia mierzymy się z awariami, gdzie często ostatecznością jest ingerencja inwazyjna w płytę drukowaną PCB aby przywrócić pełną sprawność urządzenia.
 
-## title
+Elektronika przemysłowa podlega wysokiej utylizacji w przedsiębiorstwie Kontrahenta, co może długofalowo wpływać na jej żywotność.
 
-text
+Oferujemy zarówno naprawy, jak i okresową profilaktyczną regenerację (preventive maintenance) dla modułów pracujących w ciężkich warunkach.
 
-> quote
+> Uniwersalność rozwiązań technologicznych wykorzystywanych w iTech Electronics znacząco rozszerza spektrum oferowanych usług.
 
-text
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Affordable Housing"  caption="A concept rendering of demountable units built on site" alt="Photo of designing a website in Figma" link="https://figma.com" target="_blank" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/brd.webp" title="Analiza projektu Board View"  caption="Jeden z etapów programu serwisowego Level 3 w iTech Electronics" %}
 
-## title
+## Naprawy Level 3 w iTech Electronics:
 
-text
-### title
+### Proces ten stosujemy i nieustannie udoskonalamy od ponad 15 lat, co pozwoliło wypracować wydajny i uniwersalny pakiet technologiczny. 
 
-text
+Na początku nie było łatwo, jednak po tych wszystkich latach spędzonych nad rozwiązywaniem niełatwych zagadek, dziś możemy z nieskrywaną radością pochwalić się wypracowanym sprawnie działającym procesem technologicznym, którym objęte jest każde zlecenie wymagające stacjonarnej naprawy Level 3 w laboratorium firmy iTech Electronics.
 
-### title
+> Inwestycja w szkolenia techniczne, narzędzia klasy premium, stałe łańcuchy dostaw komponentów oraz nieustanny rozwój kadry w firmie wpływają na niższy koszt i krótszy czas realizacji usług.
 
-text
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/liquid.webp" title="Inspekcja mikroobrazowa"  caption="Korozja mikrokomponentu w wyniku zawilgocenia" %}
 
-### markdown
+### Program serwisowy L3 obejmuje różnego rodzaju działania, takie jak np.:
 
-text
+- Diagnostyka/symulacja symptomu
 
-- text
+- Badania termowizyjne/mikroobrazowe
+
+- Analiza dokumentacji serwisowej i Board View
+
+- Ustalenie przyczyny źródłowej "root cause" powstania usterki w celu wdrożenia rozwiązań zapobiegających jej powróceniu
+
+- Wymiana uszkodzonych komponentów, takich jak np. tranzystory, diody, rezystory, układy scalone
+
+- Regeneracja uszkodzonych połączeń drukowanych
+
+- Naprawa lub wymiana uszkodzonych elementów elektromechanicznych, takich jak np. enkodery, sensory
+
+- Test symulacyjny w laboratorium iTech Electronics / test z wykorzystaniem infrastruktury peryferyjnej w siedzibie firmy Kontrahenta
+
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/pads.webp" title="Wymiana układu BGA"  caption="Operacja lutownicza wykonana z użyciem profesjonalnych stacji lutowniczych dostarczonych przez firmę JBC" %}
+
+## Czym dysponujemy:
+
+Innowacyjność, niezawodność oraz wydajność – takich cech oczekujemy od swoich narzędzi. 
+
+Na przykład, do wszelkich prac L3 w iTech Electronics wybraliśmy rodzinę stacji firmy JBC. Termografia wykonywana jest przy użyciu termokamery FLIR A35. Próby zwarciowe wspomagane są produktami firm Rigol oraz Fluke. Mikrokomponenty starannie wymieniane są pod czujnym okiem mikroskopu Am-Scope. Precyzyjne wyniki pomiarów oscyloskopowych dostarcza sprzęt Agilent Technologies.
+
+> Fluke, Agilent, FLIR, JBC czy Rigol to producenci światowej klasy produktów, zaprojektowanych przez profesjonalistów dla profesjonalistów.  
+
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/short.webp" title="Inspekcja mikroobrazowa x45"  caption="Układ powodujący zwarcie posiada uszkodzenie niewidoczne gołym okiem" %}
+
+> Opracowany program L3 umożliwia firmie iTech Electronics niemal nieograniczone możliwości wsparcia dla Kontrahentów. 
+
+
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/termo.webp" title="Inspekcja termograficzna"  caption="Pomiary wysokiej dokładności zapewnia kamera FLIR A35 oparta o niechłodzony mikrobolometr VOx" %}
+
+### Zapraszamy do skontaktowania się z iTech Electronics, jeżeli:
+
+- producent nie wspiera już Twojego produktu (end-of-life)
+- urządzenie nie jest już produkowane
+- naprawa modułowa jest niekorzystna
+- czas oczekiwania na nowy egzemplarz jest stanowczo za długi
+- wymiana na nowszą generację wymusza aktualizację innych peryferiów w aplikacji technologicznej Klienta
+- chcesz skorzystać z Programu Napraw Level 3 firmy iTech Electronics
+
+### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
+
