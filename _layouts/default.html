@@ -9,6 +9,8 @@
 
     <link rel="icon" href="{{ '/assets/images/favicon/favicon.png' | relative_url }}">
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/owl.carousel.min.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/assets/css/owl.theme.default.min.css' | relative_url }}" rel="stylesheet">
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="{{ site.fonts.google_fonts }}" rel="stylesheet">
 
@@ -17,7 +19,8 @@
           localStorage.getItem('darkMode') === 'true' && document.documentElement.setAttribute('data-mode', 'dark');
       </script>
     {% endif %}
-
+    <script type="text/javascript" src="{{ '/assets/js/jquery-3.6.3.min.js' | relative_url }}"></script>
+    <script type="text/javascript" src="{{ '/assets/js/owl.carousel.min.js' | relative_url }}"></script>
   </head>
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
 
