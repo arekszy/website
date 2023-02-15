@@ -47,8 +47,8 @@ services:
 
 intro:
   enabled: true
-  align: left
-  image: "/assets/images/gen/home/itechworkers.webp"
+  align: center
+  image: false
   heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:
