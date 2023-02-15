@@ -10,9 +10,9 @@ hero:
   heading: "Serwis"
   sub_heading: "Zrobimy wszystko aby Ci pomóc."
   text_color: "#FFFFFF"
-  background_color: ""
-  background_gradient: true
-  background_image: false
+  background_color: "#38444e"
+  background_gradient: false
+  background_image: "/assets/images/gen/home/home-1-large.webp"
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: false
   fullscreen_desktop: false

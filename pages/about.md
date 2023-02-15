@@ -12,7 +12,9 @@ hero:
   heading: "O firmie"
   sub_heading: ""
   background_image: true
-  background_image_blend_mode: false
+  background_image_blend_mode: overlay
+  background_color: "#38444e"
+  background_gradient: false
   background_image: "/assets/images/gen/home/home-1-large.webp"
 
   full_height_mobile: false

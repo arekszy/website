@@ -11,9 +11,9 @@ hero:
   heading: "Technologie"
   sub_heading: "Rzuć okiem na naszą codzienność."
   text_color: "#FFFFFF"
-  background_color: ""
-  background_gradient: true
-  background_image: false
+  background_color: "#38444e"
+  background_gradient: false
+  background_image: "/assets/images/gen/home/home-1-large.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
