@@ -6,8 +6,8 @@ weight: 3
 header_transparent: true
 fa_icon: false
 icon: "assets/images/icons/icons8-color-palette-100.png"
-thumbnail: "/assets/images/gen/services/bgpcbt.webp"
-image: "/assets/images/gen/services/bgpcb.webp"
+thumbnail: "/assets/images/gen/services/boardst.webp"
+image: ""
 
 hero:
   enabled: true
@@ -17,7 +17,7 @@ hero:
   background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/bgpcb.webp"
+  background_image: "/assets/images/gen/services/boards.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 500px
@@ -37,9 +37,10 @@ hero:
 
 Serwis iTech Electronics oferuje kompleksowe wsparcie w zakresie napraw, konserwacji i regeneracji wszelkiego rodzaju modułów oraz płyt głównych.
 
-Awaria tego najbardziej skomplikowanego komponentu często prowadzi do częściowego lub całkowitego unieruchomienia procesu technologicznego.
-
 Aby zapewnić jak największe spektrum wsparcia, nabyte przez lata doświadczenie wykorzystujemy do realizacji usług serwisowych bez ograniczania się do zamkniętej grupy typów urządzeń.
+
+
+> Awaria tego najbardziej skomplikowanego komponentu często prowadzi do częściowego lub całkowitego unieruchomienia procesu technologicznego.
 
 
 ## Jeżeli stwierdzono jedną z poniższych awarii, urządzenie może wymagać naprawy w serwisie iTech Electronics
@@ -66,15 +67,6 @@ Aby zapewnić jak największe spektrum wsparcia, nabyte przez lata doświadczeni
 {% include framework/shortcodes/figure.html src="/assets/images/gen/content/board1.jpg" title="Serwis iTech Electronics naprawił setki płyt głównych." caption="" %}
 
 
-
-W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
-
-
-### Godziny pracy serwisu:
-
-Pn-Czw 10:00-17:00
-
-Pt 10:00-15:00
 
 
 

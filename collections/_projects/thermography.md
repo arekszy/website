@@ -1,7 +1,7 @@
 ---
 title: "Termografia"
 description: "Technologia militarna w serwisie XXI wieku"
-date: 2018-12-20
+date: 2023-02-15
 weight: 1
 header_transparent: true
 thumbnail: "/assets/images/gen/projects/10t.jpg"
@@ -11,7 +11,7 @@ client: ""
 hero:
   enabled: true
   heading: "Termografia"
-  sub_heading: "Technologia militarna w serwisie XXI wieku"
+  sub_heading: "Technologia militarna w serwisie XXI wieku."
   text_color: "#FFFFFF"
   background_color: "#222222"
   background_gradient: false

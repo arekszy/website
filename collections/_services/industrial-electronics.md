@@ -43,6 +43,9 @@ Diagnozowanie usterek w elektronice przemysłowej jest skomplikowane i wymaga od
 
 > Priorytetem w nowoczesnym przemyśle jest utrzymanie sprawności maszyn i urządzeń oraz zachowanie płynności procesu technologicznego w przedsiębiorstwie Kontrahenta. Istotnym ogniwem jest zapewniony dostęp do specjalistów z odpowiednią wiedzą i umiejętnościami, którzy mogą szybko i skutecznie rozwiązać nietypowe problemy w nieprzewidzianych momentach.
 
+
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/content/itechworkers.webp" title=""  caption="" %}
+
 ## Proces serwisowy
 
 Po otrzymaniu przedmiotu zlecenia, proces serwisowy obejmuje różnego rodzaju działania, takie jak np.:
@@ -84,8 +87,6 @@ Poniższa grafika obrazuje proces obsługi zlecenia end-to-end:
 - Brak ryzyka utraty kluczowych danych z pamięci nieulotnej w przypadku braku kopii zapasowej
 - Czas to pieniądz - a naprawa często bywa szybsza, niż import nowego egzemplarza
 
-### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
 
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/worker.jpg" %}
 

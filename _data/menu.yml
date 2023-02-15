@@ -11,11 +11,11 @@ main:
       - name: "Moduły i płyty główne"
         url: /services/motherboards/
       - name: "Systemy sterujące"
-        url: /services/web-design/
+        url: /services/embedded-systems/
       - name: "Automatyka"
-        url: /services/seo/
+        url: /services/automation/
       - name: "Urządzenia zasilające"
-        url: /services/software-engineering/
+        url: /services/power/
   - name: Technologie
     url: /projects/
     weight: 2

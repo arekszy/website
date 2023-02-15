@@ -1,12 +1,12 @@
 ---
 title: "Microsoldering"
 description: "Małe rzeczy – wielkie znaczenie"
-date: 2023-01-01
+date: 2023-02-15
 weight: 4
-header_transparent: false
+header_transparent: true
 thumbnail: "/assets/images/gen/projects/microsolderingt.webp"
 image: "/assets/images/gen/projects/project-4-1.webp"
-client: "RGA Agency"
+client: ""
 
 hero:
   enabled: true

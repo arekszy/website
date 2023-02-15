@@ -1,7 +1,7 @@
 ---
-title: "Program napraw L3"
+title: "Program serwisowy L3"
 description: "Naprawa modułów elektronicznych na poziomie mikrokomponentowym"
-date: 2018-12-20
+date: 2023-02-15
 weight: 2
 header_transparent: true
 thumbnail: "/assets/images/gen/projects/14.jpg"
@@ -10,7 +10,7 @@ client: ""
 
 hero:
   enabled: true
-  heading: "Program napraw L3"
+  heading: "Program serwisowy L3"
   sub_heading: "Naprawiamy moduły elektroniczne na poziomie mikrokomponentowym."
   text_color: "#FFFFFF"
   background_color: "#222222"
@@ -99,4 +99,4 @@ Na przykład, do wszelkich prac L3 w iTech Electronics wybraliśmy rodzinę stac
 - naprawa modułowa jest niekorzystna
 - czas oczekiwania na nowy egzemplarz jest stanowczo za długi
 - wymiana na nowszą generację wymusza aktualizację innych peryferiów w aplikacji technologicznej Klienta
-- chcesz skorzystać z Programu Napraw Level 3 firmy iTech Electronics
+- chcesz skorzystać z Programu serwisowego Level 3 firmy iTech Electronics

@@ -1,7 +1,7 @@
 ---
 title: "Reverse Engineering"
 description: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej"
-date: 2018-12-20
+date: 2023-02-15
 weight: 3
 header_transparent: true
 thumbnail: "/assets/images/gen/projects/reverset.webp"

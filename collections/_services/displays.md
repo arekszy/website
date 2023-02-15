@@ -5,8 +5,8 @@ date: 2018-11-28T15:15:34+10:00
 weight: 2
 header_transparent: true
 icon: "assets/images/icons/icons8-user-engagement-male-100.png"
-thumbnail: "/assets/images/gen/services/service-2-thumbnail.webp"
-image: "/assets/images/gen/services/service-2.webp"
+thumbnail: "/assets/images/gen/services/hmit.webp"
+image: ""
 
 hero:
   enabled: true
@@ -16,7 +16,7 @@ hero:
   background_color: "#222222"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
-  background_image: "/assets/images/gen/services/service-2.webp"
+  background_image: "/assets/images/gen/services/hmi.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
   height: 500px
@@ -36,7 +36,7 @@ hero:
 
 Serwis iTech oferuje kompleksowe wsparcie w zakresie napraw, konserwacji i regeneracji wszelkiego rodzaju paneli dotykowych, wyświetlaczy i systemów HMI.
 
-Usterka tego komponentu często prowadzi do skutecznego unieruchomienia procesu technologicznego, bądź eliminuje możliwość przezbrojenia systemu na inny tryb produkcyjny.
+> Usterka tego komponentu często prowadzi do skutecznego unieruchomienia procesu technologicznego, bądź eliminuje możliwość przezbrojenia systemu na inny tryb produkcyjny.
 
 
 
@@ -59,11 +59,3 @@ Usterka tego komponentu często prowadzi do skutecznego unieruchomienia procesu 
 
 
 
-W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w zakładce "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
-
-
-### Godziny pracy serwisu:
-
-Pn-Czw 10:00-17:00
-
-Pt 10:00-15:00
