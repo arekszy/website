@@ -1,16 +1,16 @@
 ---
-title: "Proces napraw L3"
+title: "Program napraw L3"
 description: "Naprawa modułów elektronicznych na poziomie mikrokomponentowym"
 date: 2018-12-20
 weight: 2
 header_transparent: true
 thumbnail: "/assets/images/gen/projects/14.jpg"
 image: "/assets/images/gen/projects/project-2-1.webp"
-client: "Brisbane City Council"
+client: ""
 
 hero:
   enabled: true
-  heading: "Proces napraw L3"
+  heading: "Program napraw L3"
   sub_heading: "Naprawiamy moduły elektroniczne na poziomie mikrokomponentowym."
   text_color: "#FFFFFF"
   background_color: "#222222"
@@ -32,7 +32,7 @@ hero:
         style: "primary"
 ---
 
-## Czym jest naprawa Level 3 ?
+## Czym jest program serwisowy Level 3 ?
 
 ### Naprawa poziomu trzeciego jest jednym z najbardziej skomplikowanych procesów w branży serwisowej. 
 

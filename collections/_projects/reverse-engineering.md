@@ -35,18 +35,36 @@ hero:
 
 ## Czym jest Reverse Engineering ?
 
-### Naprawa poziomu trzeciego jest jednym z najbardziej skomplikowanych procesów w branży serwisowej. 
+Gdy dokumentacja jest niedostępna, a samo urządzenie jest nietypowe lub niewspierane przez jego producenta - wykorzystujemy techniki powiązane z inżynierią wsteczną (Reverse Engineering) celem zbadania zasady działania produktu.
 
-Każdego dnia mierzymy się z awariami, gdzie często ostatecznością jest ingerencja inwazyjna w płytę drukowaną PCB aby przywrócić pełną sprawność urządzenia.
+W tym celu wykorzystujemy posiadane doświadczenie oraz elementy sekwencji autorskiego programu napraw L3, aby trafnie zdiagnozować usterkę, a następnie mieć możliwość przetestowania urządzenia po przejściu procedury serwisowej.
 
-Elektronika przemysłowa podlega wysokiej utylizacji w przedsiębiorstwie Kontrahenta, co może długofalowo wpływać na jej żywotność.
+### Sekwencja inżynierii wstecznej selektywnie obejmuje działania, takie jak np.:
 
-Oferujemy zarówno naprawy, jak i okresową profilaktyczną regenerację (preventive maintenance) dla modułów pracujących w ciężkich warunkach.
+- Diagnostyka/symulacja symptomu
 
-> Uniwersalność rozwiązań technologicznych wykorzystywanych w iTech Electronics znacząco rozszerza spektrum oferowanych usług.
+- Badania termowizyjne/mikroobrazowe
+
+- Analiza dokumentacji serwisowej poszczególnych komponentów (datasheet)
+
+- Ustalenie przyczyny źródłowej "root cause" powstania usterki w celu wdrożenia rozwiązań zapobiegających jej powróceniu
+
+- Symulacja aplikacji lub infrastruktury operacyjnej urządzenia
+
+- Próby zwarciowe
+
+- Tworzenie prostych aplikacji celem 
+
+- Test symulacyjny w laboratorium iTech Electronics / test z wykorzystaniem infrastruktury peryferyjnej w siedzibie firmy Kontrahenta
+
+- Pomiary elektryczne i oscyloskopowe
 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/brd.webp" title="Analiza projektu Board View"  caption="Jeden z etapów programu serwisowego Level 3 w iTech Electronics" %}
+
+> Proces inżynierii wstecznej zwiększa szanse powodzenia teoretycznie niemożliwej naprawy.
+
+
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/content/datasheet.webp" title="Nota techniczna TPS51220"  caption="Metoda umożliwia zrozumienie działania aplikacji układu scalonego gdy dokumentacja urządzenia jest niedostępna" %}
 
 ## Naprawy Level 3 w iTech Electronics:
 
