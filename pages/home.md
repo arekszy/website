@@ -103,7 +103,7 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: 
+  heading: "Opinie"
   sub_heading: ""
   features:
     enabled: true

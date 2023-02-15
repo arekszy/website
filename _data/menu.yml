@@ -22,7 +22,7 @@ main:
     child:
       - name: "Termografia"
         url: /projects/thermography/
-      - name: "Proces napraw L3"
+      - name: "Program napraw L3"
         url: /projects/circuits/
       - name: "Reverse Engineering"
         url: /projects/reverse-engineering/

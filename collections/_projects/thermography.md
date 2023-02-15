@@ -66,4 +66,3 @@ Zaawansowane naprawy wymagają zaawansowanego parku narzędziowego. Z tego wzgl�
 - Detektor - niechłodzony mikrobolometr, VOx
 
 
-### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.

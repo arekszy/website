@@ -100,6 +100,3 @@ Na przykład, do wszelkich prac L3 w iTech Electronics wybraliśmy rodzinę stac
 - czas oczekiwania na nowy egzemplarz jest stanowczo za długi
 - wymiana na nowszą generację wymusza aktualizację innych peryferiów w aplikacji technologicznej Klienta
 - chcesz skorzystać z Programu Napraw Level 3 firmy iTech Electronics
-
-### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
-

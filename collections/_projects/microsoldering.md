@@ -62,4 +62,3 @@ Skompresowana konstrukcja narzędzi z serii NANO wraz z szerokim wyborem grotów
 
 
 
-### W celu zlecenia naprawy prosimy o informację poprzez formularz elektroniczny w karcie "Kontakt" lub porozmawiaj z ekspertem dostępnym na dedykowanej infolinii.
