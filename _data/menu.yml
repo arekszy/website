@@ -28,9 +28,9 @@ main:
         url: /projects/reverse-engineering/
       - name: "Microsoldering"
         url: /projects/microsoldering/
-  #- name: Blog
-   # url: /blog/
-    # weight: 4
+  - name: Blog
+    url: /blog/
+    weight: 4
   - name: Firma
     url: /about/
     weight: 5

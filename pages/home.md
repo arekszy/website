@@ -119,7 +119,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: false
+  enabled: true
   heading: "Najnowsze posty"
   sub_heading: ""
   limit: 3
