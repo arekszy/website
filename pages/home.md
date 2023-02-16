@@ -4,7 +4,7 @@ permalink: "/"
 title: "iTech Electronics"
 description: "iTech Electronics - Serwis elektroniki przemysłowej."
 header_transparent: true
-meta_title: Serwis elektroniki przemysłowej
+meta_title: iTech Electronics - Serwis elektroniki przemysłowej. Wsparcie automatyki i robotyzacji.
 
 hero:
   enabled: true
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "SERWIS"
+  heading: "OFERTA"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'

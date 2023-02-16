@@ -1,6 +1,7 @@
 ---
 layout: contact
 title: Kontakt
+header_transparent: true
 body_classes: page-contact
 
 hero:

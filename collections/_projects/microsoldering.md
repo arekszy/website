@@ -46,7 +46,7 @@ Postęp technologiczny ściśle powiązany jest z miniaturyzacją. Większa ilo�
 
 >  Niemal codziennie spotykamy się z lutowaniem elementów SMD o wymiarach 0,4 x 0,2 mm. Praca w takim środowisku wymaga wiedzy, chirurgicznej precyzji oraz specjalistycznego parku sprzętowego.
 
-Praca w takim środowisku wymaga wiedzy, chirurgicznej precyzji oraz specjalistycznego parku sprzętowego. W iTech Electronics posiadamy wszystkie w/w składowe, potrzebne do skutecznej naprawy Twojego urządzenia na poziomie mikrokomponentowym.
+W iTech Electronics posiadamy wszystkie w/w składowe, potrzebne do skutecznej naprawy Twojego urządzenia na poziomie mikrokomponentowym.
 
 {% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/project-1-3.webp" title="Wymiana układu BGA"  caption="Operacja lutownicza wykonana z użyciem profesjonalnych stacji lutowniczych dostarczonych przez firmę JBC" %}
 

@@ -1,7 +1,6 @@
 ---
 title: "Moduły i płyty główne"
 description: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny."
-date: 2019-10-03
 weight: 3
 header_transparent: true
 fa_icon: false

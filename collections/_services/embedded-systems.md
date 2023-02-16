@@ -1,7 +1,6 @@
 ---
 title: "Systemy sterujące"
 description: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
-date: 2018-11-28T15:15:34+10:00
 weight: 4
 header_transparent: true
 fa_icon: false
@@ -68,4 +67,4 @@ Aby zapewnić jak największe spektrum wsparcia, nabyte przez lata doświadczeni
 - Brak reakcji na dotyk
 
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/board1.jpg" title="Serwis iTech Electronics naprawił setki płyt głównych." caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/embedded.webp" title="Zintegrowany system sterujący" caption="" %}

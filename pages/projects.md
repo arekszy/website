@@ -1,8 +1,8 @@
 ---
 layout: list
 collection: "projects"
-title: Projects
-description: "A selection of our work and projects."
+title: Technologia
+description: "Technologia w iTech Electronics"
 permalink: "/projects/"
 header_transparent: true
 
@@ -48,8 +48,8 @@ intro:
   buttons:
     enabled: false
     list:
-      - text: "View Github"
-        url: "https://github.com/zerostaticthemes"
+      - text: ""
+        url: ""
         external: true
         fa_icon: "fab fa-github"
         size: "large"
@@ -60,7 +60,7 @@ outro:
   enabled: true
   align: left
   image: false
-  heading: "Jesteś tu pierwszy raz ?"
+  heading: "Masz sprawę ?"
   sub_heading: "Skontaktuj się z Nami !"
   buttons:
     enabled: true

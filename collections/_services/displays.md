@@ -1,7 +1,6 @@
 ---
 title: "Panele operatorskie"
 description: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
-date: 2018-11-28T15:15:34+10:00
 weight: 2
 header_transparent: true
 icon: "assets/images/icons/icons8-user-engagement-male-100.png"

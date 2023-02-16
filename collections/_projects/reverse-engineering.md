@@ -4,8 +4,8 @@ description: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej"
 date: 2023-02-15
 weight: 3
 header_transparent: true
-thumbnail: "/assets/images/gen/projects/reverset.webp"
-image: "/assets/images/gen/projects/project-3-1.webp"
+thumbnail: "/assets/images/gen/projects/datasheett.webp"
+image: ""
 client: ""
 
 hero:
@@ -15,7 +15,7 @@ hero:
   text_color: "#FFFFFF"
   background_color: "#222222"
   background_gradient: false
-  background_image: "/assets/images/gen/projects/reverseb.webp"
+  background_image: "/assets/images/gen/projects/datasheetb.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
@@ -24,7 +24,7 @@ hero:
     enabled: false
     list:
       - text: "Buy Now"
-        url: "https://www.zerostatic.io/theme/jekyll-advance/"
+        url: ""
         external: true
         fa_icon: false
         size: large
@@ -64,7 +64,7 @@ W tym celu wykorzystujemy posiadane doświadczenie oraz elementy sekwencji autor
 > Proces inżynierii wstecznej zwiększa szanse powodzenia teoretycznie niemożliwej naprawy.
 
 
-{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/content/datasheet.webp" title="Nota techniczna TPS51220"  caption="Metoda umożliwia zrozumienie działania aplikacji układu scalonego gdy dokumentacja urządzenia jest niedostępna" %}
+{% include framework/shortcodes/figure.html full=true src="/assets/images/gen/projects/datasheet.webp" title="Nota techniczna TPS51220"  caption="Metoda umożliwia zrozumienie działania aplikacji układu scalonego gdy dokumentacja urządzenia jest niedostępna" %}
 
 
 

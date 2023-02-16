@@ -4,8 +4,8 @@ description: "Technologia militarna w serwisie XXI wieku"
 date: 2023-02-15
 weight: 1
 header_transparent: true
-thumbnail: "/assets/images/gen/projects/10t.jpg"
-image: "/assets/images/gen/projects/project-1-1.webp"
+thumbnail: "/assets/images/gen/projects/10t.webp"
+image: ""
 client: ""
 
 hero:

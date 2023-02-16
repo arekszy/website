@@ -4,8 +4,8 @@ description: "Naprawa modułów elektronicznych na poziomie mikrokomponentowym"
 date: 2023-02-15
 weight: 2
 header_transparent: true
-thumbnail: "/assets/images/gen/projects/14.jpg"
-image: "/assets/images/gen/projects/project-2-1.webp"
+thumbnail: "/assets/images/gen/projects/14t.webp"
+image: ""
 client: ""
 
 hero:

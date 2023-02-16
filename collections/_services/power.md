@@ -1,7 +1,6 @@
 ---
 title: "Zasilanie"
-description: "Przetwornice DC, falowniki oraz pozostałe systemy zasilające."
-date: 2019-10-03
+description: "Regenerujemy przetwornice DC, falowniki oraz pozostałe systemy zasilające."
 weight: 6
 header_transparent: true
 fa_icon: "fab fa-codepen"
@@ -12,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Zasilanie"
-  sub_heading: "Przetwornice DC, falowniki oraz pozostałe systemy zasilające."
+  sub_heading: "Regenerujemy przetwornice DC, falowniki oraz pozostałe systemy zasilające."
   text_color: "#ffffff"
   background_color: "#222222"
   background_gradient: false
@@ -51,7 +50,6 @@ Aby zapewnić jak największe spektrum wsparcia, nabyte przez lata doświadczeni
 - Brak komunikacji
 - Sygnalizacja błędów podczas sekwencji uruchamiania
 - Brak reakcji na włącznik
-- Niemożliwa interakcja przy użyciu klawiatury lokalnej
 - Widoczne uszkodzenie komponentów elektronicznych
 - Zalanie cieczą
 - Uszkodzone złącze
@@ -60,4 +58,4 @@ Aby zapewnić jak największe spektrum wsparcia, nabyte przez lata doświadczeni
 - Inna wyżej niewymieniona usterka
 
 
-{% include framework/shortcodes/figure.html src="/assets/images/gen/content/board1.jpg" title="Serwis iTech Electronics naprawił setki płyt głównych." caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/gen/content/power.webp" title="Zasilacz przemysłowy" caption="" %}
