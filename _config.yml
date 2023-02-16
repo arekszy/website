@@ -81,15 +81,15 @@ category_dir: category
 
 colors:
   #light-mode colors
-  primary: "#2b3af7"
+  primary: "#00B6FF"
   primary_2: "#000000"
   primary_text: "#fdfcf9"
-  secondary: "#702bf7"
-  background: "#ffffff"
-  background_2: "#f8f9ff"
-  background_3: "#eef2f9"
-  text: "#0d042b"
-  text_2: "#3b364c"
+  secondary: "#8215cb"
+  background: "#0f0f10"
+  background_2: "#1a191c"
+  background_3: "#222124"
+  text: "#f5f5ec"
+  text_2: "#b6c3d6"
 
   # dark-mode colors
   primary_dark: "#00B6FF"
