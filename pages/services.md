@@ -8,7 +8,7 @@ header_transparent: true
 hero:
   enabled: true
   heading: "Serwis"
-  sub_heading: "Zrobimy wszystko aby Ci pomóc."
+  sub_heading: "Jak możemy pomóc ?"
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false

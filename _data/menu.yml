@@ -16,7 +16,7 @@ main:
         url: /services/automation/
       - name: "Urządzenia zasilające"
         url: /services/power/
-  - name: Technologie
+  - name: Technologia
     url: /projects/
     weight: 2
     child:
@@ -28,9 +28,9 @@ main:
         url: /projects/reverse-engineering/
       - name: "Microsoldering"
         url: /projects/microsoldering/
-  - name: Blog
-    url: /blog/
-    weight: 4
+  #- name: Blog
+   # url: /blog/
+    # weight: 4
   - name: Firma
     url: /about/
     weight: 5
@@ -74,6 +74,6 @@ bottom:
   - name: Polityka prywatności
     url: /privacy-policy/
     weight: 3
-  - name: Regulamin
-    url: /terms-and-conditions/
-    weight: 4
+  #- name: Regulamin
+   # url: /terms-and-conditions/
+    # weight: 4

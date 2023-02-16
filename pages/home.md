@@ -38,11 +38,11 @@ hero:
 
 services:
   enabled: true
-  heading: ""
+  heading: "SERWIS"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
-  view_more_button_text: "Oferta"
+  view_more_button_text: "Więcej"
   view_more_button_link: "/services"
 
 intro:
@@ -91,12 +91,12 @@ partners:
 
 projects:
   enabled: true
-  heading: ""
+  heading: "Technologia"
   sub_heading: ""
   limit: 4
   columns: 2
   sort: "weight" # 'date'
-  view_more_button_text: "Technologie"
+  view_more_button_text: "Więcej"
   view_more_button_link: "/projects"
 
 outro:
@@ -119,7 +119,7 @@ outro:
         size: "large"
 
 posts:
-  enabled: true
+  enabled: false
   heading: "Najnowsze posty"
   sub_heading: ""
   limit: 3

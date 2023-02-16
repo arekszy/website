@@ -8,7 +8,7 @@ header_transparent: true
 
 hero:
   enabled: true
-  heading: "Technologie"
+  heading: "Technologia"
   sub_heading: "Rzuć okiem na naszą codzienność."
   text_color: "#FFFFFF"
   background_color: "#38444e"
