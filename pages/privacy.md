@@ -1,6 +1,6 @@
 ---
 title: "Polityka prywatności"
-date: 2021-24-01
+date: 2022-02-16
 layout: basic
 permalink: "/privacy-policy/"
 ---

@@ -17,7 +17,7 @@ hero:
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "600px"
+  height: "660px"
   buttons:
     enabled: false
     list:
@@ -122,8 +122,8 @@ posts:
   enabled: true
   heading: "Najnowsze posty"
   sub_heading: ""
-  limit: 3
-  columns: 3
+  limit: 4
+  columns: 2
   sort: "weight" # 'date'
   view_more_button_text: "BLOG"
   view_more_button_link: "/blog"

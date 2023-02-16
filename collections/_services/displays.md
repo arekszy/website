@@ -18,7 +18,7 @@ hero:
   background_image: "/assets/images/gen/services/hmi.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 600px
+  height: 660px
   buttons:
     enabled: false
     list:

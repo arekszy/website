@@ -3,8 +3,8 @@ layout: post
 title: "Czas na inwertery solarne"
 date: 2022-08-20
 authors: [""]
-tags: ["Serwis"]
-categories: ["Serwis"]
+tags: ["Serwis", "Elektronika"]
+categories: ["Serwis", "Elektronika"]
 description: Rozszerzamy zakres usług.
 thumbnail: "/assets/images/gen/blog/invertert.webp"
 

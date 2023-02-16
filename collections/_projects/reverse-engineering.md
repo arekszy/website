@@ -1,6 +1,6 @@
 ---
 title: "Reverse Engineering"
-description: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej"
+description: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej."
 date: 2023-02-15
 weight: 3
 header_transparent: true
@@ -11,7 +11,7 @@ client: ""
 hero:
   enabled: true
   heading: "Reverse Engineering"
-  sub_heading: "text"
+  sub_heading: "Diagnostyka urządzenia bez dostępnej dokumentacji serwisowej."
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false
@@ -19,7 +19,7 @@ hero:
   background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "600px"
+  height: "660px"
   buttons:
     enabled: false
     list:

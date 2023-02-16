@@ -19,7 +19,7 @@ hero:
   background_image: "/assets/images/gen/services/drivers.webp"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: 600px;
+  height: 660px;
   buttons:
     enabled: false
     list:

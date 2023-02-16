@@ -1,6 +1,6 @@
 ---
 layout: categories
-title: Categories
+title: Wybierz kategorię
 body_classes: page-categories
 permalink: "/blog/categories/"
 ---
