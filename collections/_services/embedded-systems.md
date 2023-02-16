@@ -13,13 +13,13 @@ hero:
   heading: "Systemy sterujące"
   sub_heading: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
   text_color: "#ffffff"
-  background_color: "#222222"
+  background_color: "#38444e"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/drivers.webp"
   fullscreen_mobile: true
   fullscreen_desktop: false
-  height: 500px;
+  height: 600px;
   buttons:
     enabled: false
     list:

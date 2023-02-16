@@ -13,6 +13,7 @@ hero:
   background_color: "#38444e"
   background_gradient: false
   background_image: "/assets/images/gen/home/home-1-large.webp"
+  height: "600px"
 ---
 
 

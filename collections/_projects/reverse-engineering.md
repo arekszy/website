@@ -13,13 +13,13 @@ hero:
   heading: "Reverse Engineering"
   sub_heading: "text"
   text_color: "#FFFFFF"
-  background_color: "#222222"
+  background_color: "#38444e"
   background_gradient: false
   background_image: "/assets/images/gen/projects/datasheetb.webp"
   background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "500px"
+  height: "600px"
   buttons:
     enabled: false
     list:

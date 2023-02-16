@@ -13,13 +13,13 @@ hero:
   heading: "Moduły i płyty główne"
   sub_heading: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny."
   text_color: "#ffffff"
-  background_color: "#222222"
+  background_color: "#38444e"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/boards.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 500px
+  height: 600px
   buttons:
     enabled: false
     list:

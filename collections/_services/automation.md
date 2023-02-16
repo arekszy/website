@@ -13,13 +13,13 @@ hero:
   heading: "Automatyka i robotyka"
   sub_heading: "Wspieramy Integratorów oraz robotyzacji przemysłu."
   text_color: "#ffffff"
-  background_color: "#222222"
+  background_color: "#38444e"
   background_gradient: false
   background_image_blend_mode: "overlay" # "overlay", "multiply", "screen"
   background_image: "/assets/images/gen/services/robot.webp"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: 500px
+  height: 600px
   buttons:
     enabled: false
     list:
