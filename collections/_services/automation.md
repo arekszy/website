@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Automatyka i robotyka"
-  sub_heading: "Wspieramy Integratorów oraz robotyzacji przemysłu."
+  sub_heading: "Wspieramy Integratorów oraz robotyzację przemysłu."
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false
