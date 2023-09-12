@@ -1,6 +1,6 @@
 ---
 title: "Elektronika przemysłowa"
-description: "Nadzorujemy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych."
+description: "Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych"
 weight: 1
 header_transparent: true
 fa_icon: false
@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Elektronika przemysłowa"
-  sub_heading: "Nadzorujemy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych."
+  sub_heading: "Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych"
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false

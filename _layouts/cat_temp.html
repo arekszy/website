@@ -1,0 +1,90 @@
+---
+layout: default
+body_classes: page-post
+---
+
+<style>
+  .container-btn {
+    width: 180px;
+    float: left;
+    margin: 3px;
+  
+  }
+  </style>
+
+<div class="section">
+  <div class="container post-header">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-8">
+         
+          <div class="post-title">
+            <h1>Part nr: {{ page.Name }}<br/></h1>
+            <p>Kategoria: {{ page.category }}<br/></p>
+            <p>Producent: {{ page.manufacturer }}<br/></p>
+          </div>
+
+          <div>
+            
+            {% if page.availability==1 %}
+            <span class="dostepny">Dostępny</span>
+            
+            {% elsif page.availability==0 %}
+            <span class="zamowienie">Na zamówienie</span>
+
+            {% else %}
+            <span class="niedostepny">Niedostępny</span>
+            {% endif %}
+          <br><br/>
+
+          </div>
+          
+          <span class="container-buttons">
+            {% if page.availability==1 or page.availability==0 %}<div class="container-btn"><a href="/contactform?t=new&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a></div>{% endif %}<div class="container-btn"><a href="/contactform?t=naprawa&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></div><br><br/>
+          </span>
+        
+          
+          {% if page.Price %}
+          <div class="post-description">
+            <p><br/>Cena: {{ page.Price }}</p>
+          </div>
+        {% endif %}
+
+
+          {% if page.description %}
+            <div class="post-description">
+              <p>{{ page.description }}</p>
+            </div>
+          {% endif %}
+
+      
+
+          
+      </div>
+    </div>
+          
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-10">
+        {% if page.image %}
+          <div class="post-image">
+            <img src="{{ page.image }}" alt="{{ page.title }}" />
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="section pt-0">
+  <div class="container">
+    <div class="row justify-content-center">
+
+      <div class="col-12 col-lg-8">
+        <div class="content">{{ content }}</div>
+        
+      </div>
+
+    </div>
+  </div>
+</div>

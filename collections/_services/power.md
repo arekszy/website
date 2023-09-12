@@ -1,6 +1,6 @@
 ---
 title: "Zasilanie"
-description: "Regenerujemy przetwornice DC, falowniki oraz pozostałe systemy zasilające."
+description: "Regenerujemy przetwornice DC oraz pozostałe systemy zasilające"
 weight: 6
 header_transparent: true
 fa_icon: "fab fa-codepen"
@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Zasilanie"
-  sub_heading: "Regenerujemy przetwornice DC, falowniki oraz pozostałe systemy zasilające."
+  sub_heading: "Regenerujemy przetwornice DC oraz pozostałe systemy zasilające"
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false

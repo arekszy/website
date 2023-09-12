@@ -9,7 +9,7 @@ header_transparent: true
 hero:
   enabled: true
   heading: "Technologia"
-  sub_heading: "Rzuć okiem na naszą codzienność."
+  sub_heading: "Rzuć okiem na naszą codzienność"
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false
@@ -17,7 +17,7 @@ hero:
   background_image_blend_mode: overlay
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "660px"
+  height: "300px"
   buttons:
     enabled: false
     list:
@@ -60,7 +60,7 @@ outro:
   enabled: true
   align: left
   image: false
-  heading: "Masz sprawę ?"
+  heading: "Potrzebujesz pomocy ?"
   sub_heading: "Skontaktuj się z Nami !"
   buttons:
     enabled: true

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
@@ -7,12 +7,15 @@
 
     {% include framework/global/seo/meta.html %}
 
+    <link rel="stylesheet" href="/assets/css/booking.css">
     <link rel="icon" href="{{ '/assets/images/favicon/favicon.png' | relative_url }}">
     <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/assets/css/owl.carousel.min.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/assets/css/owl.theme.default.min.css' | relative_url }}" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="{{ site.fonts.google_fonts }}" rel="stylesheet">
+    
 
     {% if site.darkmode.enable_dark_mode != false %}
       <script>
@@ -21,6 +24,7 @@
     {% endif %}
     <script type="text/javascript" src="{{ '/assets/js/jquery-3.6.3.min.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{ '/assets/js/owl.carousel.min.js' | relative_url }}"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
   </head>
 <body class="page {% if page.body_classes %}{{ page.body_classes }}{% elsif layout.body_classes %}{{ layout.body_classes }}{% endif %}{% if site.header.fixed %} has-fixed-header{% else %} has-static-header{% endif %}">
 
@@ -38,6 +42,20 @@
 {% if site.bottom.enable_bottom %}
   {% include framework/global/footer/bottom.html %}
 {% endif %}
+
+<script>
+  $(document).ready(function () {
+    $("#example").DataTable({
+      order: [
+        [1, "asc"]
+      ],
+      language: {
+        url: '//cdn.datatables.net/plug-ins/1.13.6/i18n/pl.json',
+      },
+    });
+  });
+</script>
+
 
 <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 {% if site.header.fixed %}

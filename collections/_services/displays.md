@@ -1,6 +1,6 @@
 ---
 title: "Panele operatorskie"
-description: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
+description: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń"
 weight: 2
 header_transparent: true
 icon: "assets/images/icons/icons8-user-engagement-male-100.png"
@@ -10,7 +10,7 @@ image: ""
 hero:
   enabled: true
   heading: "Panele operatorskie"
-  sub_heading: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń."
+  sub_heading: "Serwisujemy panele dotykowe, wyświetlacze oraz systemy HMI do obsługi maszyn i urządzeń"
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false

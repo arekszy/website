@@ -1,6 +1,6 @@
 ---
 title: "Automatyka i robotyka"
-description: "Wspieramy Integratorów oraz robotyzację przemysłu."
+description: "Wspieramy Integratorów oraz robotyzację przemysłu"
 weight: 5
 header_transparent: true
 fa_icon: "far fa-chart-bar"
@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Automatyka i robotyka"
-  sub_heading: "Wspieramy Integratorów oraz robotyzację przemysłu."
+  sub_heading: "Wspieramy Integratorów oraz robotyzację przemysłu"
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false

@@ -31,15 +31,18 @@ main:
   - name: Blog
     url: /blog/
     weight: 4
+  - name: Katalog
+    url: /catalog/
+    weight: 5  
   - name: Firma
     url: /about/
-    weight: 5
+    weight: 6
   - name: Tracking
     url: https://naprawiam.online
-    weight: 6
+    weight: 7
   - name: Kontakt
     url: /contact
-    weight: 6
+    weight: 8
 footer_primary:
   - name: Usługi
     url: /services/
@@ -50,6 +53,9 @@ footer_primary:
   - name: Blog
     url: /blog/
     weight: 3
+  - name: Katalog
+    url: /catalog/
+    weight: 4  
 footer_secondary:
   - name: Firma
     url: /blog/

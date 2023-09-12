@@ -1,6 +1,6 @@
 ---
 title: "Systemy sterujące"
-description: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
+description: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń"
 weight: 4
 header_transparent: true
 fa_icon: false
@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Systemy sterujące"
-  sub_heading: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń."
+  sub_heading: "Przywracamy do życia sterowniki i komputery maszynowe zarządzające przebiegiem pracy urządzeń"
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false

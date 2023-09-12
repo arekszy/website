@@ -1,0 +1,95 @@
+---
+layout: default
+body_classes: page-catalog
+---
+
+{% if page.hero.enabled %}
+  {% include framework/blocks/sections/hero.html 
+    heading=page.hero.heading
+    sub_heading=page.hero.sub_heading
+    text_color=page.hero.text_color
+    background_image=page.hero.background_image
+    background_image_blend_mode=page.hero.background_image_blend_mode
+    background_color=page.hero.background_color
+    background_gradient=page.hero.background_gradient
+    fullscreen_mobile=page.hero.fullscreen_mobile
+    fullscreen_desktop=page.hero.fullscreen_desktop
+    height=page.hero.height
+    buttons=page.hero.buttons
+  %}
+{% else %}
+  <div class="section">
+    <div class="container">
+    {% include framework/blocks/sections/title.html
+      fa_icon=page.fa_icon
+      icon=page.icon
+      title=page.title
+      description=page.description
+      image=page.image
+    %}
+    </div>
+  </div>
+{% endif %}
+
+<
+
+  <div class="section strip-border-top">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-12 col-lg-12">
+          <div class="content">
+    <table id="example" class="cell-border" style="width: 100%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Producent</th>
+          <th>Part nr</th>
+          <th>Kategoria</th>
+          <th>Cena</th>
+          <th>Dostępność</th>
+          
+          <th></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!--For loop that iterates over markdown frontmatter in _skus folder-->
+        {% for sku in site.skus %}
+        <tr>
+          <td>{% if sku.thumbnail %}
+            <a href="{{ sku.url | relative_url }}"><img alt="{{ sku.title }}" src="{{ sku.thumbnail | relative_url }}"/></a>
+          {% endif %}</td>
+          <td>{{ sku.manufacturer }}</td>
+          <td><a href="{{ sku.url | relative_url }}"><b>{{ sku.Name }}</b></a></td>
+          <td>{{ sku.category }}</td>
+          <td>{{ sku.Price }}</td>
+          <td>
+            {% if sku.availability==1 %}
+            <span class="dostepny">Dostępny</span>
+            
+            {% elsif sku.availability==0 %}
+            <span class="zamowienie">Na zamówienie</span>
+
+            {% else %}
+            <span class="niedostepny">Niedostępny</span>
+            {% endif %}
+
+            
+          </td>
+          
+          <td>{% if sku.availability==1 or sku.availability==0 %}<a href="/contactform?t=new&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a><br><br>{% endif %}<a href="/contactform?t=naprawa&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+
+      
+    </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+}

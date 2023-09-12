@@ -16,7 +16,7 @@ hero:
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: false
   fullscreen_desktop: false
-  height: "660px"
+  height: "300px"
   buttons:
     enabled: false
     list:
@@ -52,8 +52,8 @@ outro:
   enabled: true
   align: left
   image: false
-  heading: "Jesteś tu pierwszy raz ?"
-  sub_heading: "Skontaktuj się z Nami !"
+  heading: "Potrzebujesz pomocy ?"
+  sub_heading: "Skontaktuj się z Nami !"
   buttons:
     enabled: true
     list:

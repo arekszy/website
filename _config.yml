@@ -1,8 +1,8 @@
 # -------------------
 # Jekyll Config
 # --------------------
-baseurl: "/website"
-url: ""
+baseurl: "/"
+url: "http://www.itechelectronics.pl"
 permalink: pretty
 markdown: kramdown
 highlighter: rouge
@@ -29,6 +29,9 @@ collections:
   posts:
     output: true
     permalink: /blog/:path/
+  skus:
+    output: true
+    permalink: /catalog/:path/    
 
 defaults:
   - scope:
@@ -76,7 +79,7 @@ exclude:
 # -------------------
 # Theme Config
 # --------------------
-title: "iTech Electronics - Serwis elektroniki przemysłowej"
+title: "iTech Electronics - Wspieramy procesy technologiczne"
 category_dir: category
 
 colors:
@@ -155,7 +158,7 @@ menu:
 footer:
   enable_footer: true # show/hide the entire footer
   footer_title: "iTech Electronics"
-  footer_description: "Serwis elektroniki przemysłowej"
+  footer_description: "Wspieramy procesy technologiczne"
   enable_social_media_icons: true
   enable_contact_details: true
   enable_menu_footer_primary: true
@@ -175,3 +178,5 @@ sidebar:
   enable_breadcrumbs_services: true
   enable_sidebar_projects: true
   enable_breadcrumbs_projects: true
+
+formspree_form_path: "f/mqkvbldr"

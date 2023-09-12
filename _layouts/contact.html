@@ -31,20 +31,85 @@ body_classes: page-contact
   </div>
 {% endif %}
 
-{% assign content = content %}
-{% if content != "" %}
-  <div class="section pt-0">
-    <div class="container">
-      <div class="row justify-content-start">
-        <div class="col-12 col-lg-8">
-          <div class="content">{{ content }}</div>
+<style>
+  .container-btn {
+    width: 180px;
+    float: left;
+    margin: 3px;
+  
+  }
+  </style>
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/itechelectronics?background_color=000000&text_color=ffffff&primary_color=00b7ff" style="min-width:250px;height:800px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+<div class="section strip-border-top">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-lg-12">
+        <div class="content">
+
+          <form id="contactForm"
+          action="https://formspree.io/f/mqkoawze"
+          novalidate="novalidate" method="POST">
+          <!--name="sentMessage"-->
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input name="name" id="name" type="text"
+                  placeholder="Imię*"
+                  required="required" data-validation-required-message="Proszę wpisać imię.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input name="_replyto" class="form-control" id="email" type="email"
+                  placeholder="Email*"
+                  required="required" data-validation-required-message="Proszę wpisać adres email.">
+                <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                <input name="phone" class="form-control" id="phone" type="tel"
+                  placeholder="Telefon"
+                  required="required" data-validation-required-message="Proszę wpisać nr telefonu.">
+                <p class="help-block text-danger"></p>
+              </div>
+
+              <div class="form-group">
+                <input name="nip" class="form-control" id="nip" type="text"
+                  placeholder="NIP"
+                  required="required" data-validation-required-message="Proszę wpisać nr NIP.">
+                <p class="help-block text-danger"></p>
+              </div> 
+              
+
+
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea rows=8 name="message" class="form-control" id="message"
+                  placeholder="Wiadomość*"
+                  required="required" data-validation-required-message="Proszę wpisać wiadomość."></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <input type="hidden" name="_subject" value="Wiadomość z formularza kontaktowego" id="email-subject">
+            <div class="clearfix"></div>
+            <div class="col-lg-12 text-center">
+              <div id="success"></div>
+              <div class="container-btn">
+              <button id="sendMessageButton" class="btn_blu"
+                type="submit">Wyślij wiadomość</button></div>
+            </div>
+            <input type="text" name="_gotcha" style="display:none">
+            <input type="hidden" name="_next" value="#" />
+          </div>
+        </form>
+
+
         </div>
       </div>
     </div>
   </div>
-{% endif %}
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/itechelectronics?background_color=000000&text_color=ffffff&primary_color=00b7ff" style="min-width:250px;height:1200px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->
+</div>

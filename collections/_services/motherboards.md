@@ -1,6 +1,6 @@
 ---
 title: "Moduły i płyty główne"
-description: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny."
+description: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny"
 weight: 3
 header_transparent: true
 fa_icon: false
@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Moduły i płyty główne"
-  sub_heading: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny."
+  sub_heading: "Naprawiamy komponenty peryferyjne wspomagające proces technologiczny"
   text_color: "#ffffff"
   background_color: "#38444e"
   background_gradient: false

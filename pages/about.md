@@ -15,7 +15,7 @@ hero:
   background_color: "#38444e"
   background_gradient: false
   background_image: "/assets/images/gen/home/home-1-large.webp"
-  height: "660px"
+  height: "300px"
 
   full_height_mobile: false
   buttons:
@@ -41,4 +41,4 @@ Po przeprowadzeniu usługi serwisowej otrzymasz szczegółowy protokół zawiera
 
 Priorytetem firmy jest najwyższa jakość świadczonych usług oraz możliwie najszybsza realizacja. Wszystko to, z gwarancją nawet do 12 miesięcy. Zapraszamy do zapoznania się z naszą ofertą.
 
-## Świadczymy usługi na terenie całego kraju drogą wysyłkową.
+## Świadczymy usługi na terenie całego kraju - również drogą wysyłkową !

@@ -2,14 +2,14 @@
 layout: home
 permalink: "/"
 title: "iTech Electronics"
-description: "iTech Electronics - Serwis elektroniki przemysłowej."
+description: "iTech Electronics - Serwis elektroniki przemysłowej. Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych."
 header_transparent: true
-meta_title: iTech Electronics - Serwis elektroniki przemysłowej. Wsparcie automatyki i robotyzacji.
+meta_title: iTech Electronics - Wsparcie procesów technologicznych. Serwis elektroniki przemysłowej.
 
 hero:
   enabled: true
   heading: "iTech Electronics"
-  sub_heading: "Serwis elektroniki przemysłowej. Wsparcie automatyki i robotyzacji."
+  sub_heading: "Wspieramy procesy technologiczne"
   text_color: "#FFFFFF"
   background_color: "#38444e"
   background_gradient: false
@@ -17,7 +17,7 @@ hero:
   background_image_blend_mode: overlay # "overlay", "multiply", "screen"
   fullscreen_mobile: true
   fullscreen_desktop: true
-  height: "660px"
+  height: "300px"
   buttons:
     enabled: false
     list:
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "OFERTA"
+  heading: "JAK MOŻEMY POMÓC?"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
