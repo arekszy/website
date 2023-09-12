@@ -53,9 +53,6 @@ footer_primary:
   - name: Blog
     url: /blog/
     weight: 3
-  - name: Katalog
-    url: /catalog/
-    weight: 4  
 footer_secondary:
   - name: Firma
     url: /blog/
