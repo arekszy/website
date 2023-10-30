@@ -31,9 +31,9 @@ main:
   - name: Blog
     url: /blog/
     weight: 4
-  - name: Katalog
-    url: /catalog/
-    weight: 5  
+  #- name: Katalog
+   # url: /catalog/
+    #weight: 5  
   - name: Firma
     url: /about/
     weight: 6
