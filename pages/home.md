@@ -106,7 +106,7 @@ outro:
   heading: "Opinie"
   sub_heading: ""
   features:
-    enabled: true
+    enabled: false
     list:
       - text: "Jesteś tu pierwszy raz ? Zapraszamy do kontaktu !"
         fa_icon: "fas fa-envelope-open-text"
