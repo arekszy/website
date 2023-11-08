@@ -121,3 +121,7 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
+.text-danger > ul > li{
+  color: red;
+  line-height: 0.5;
+}

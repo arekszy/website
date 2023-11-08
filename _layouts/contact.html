@@ -3,6 +3,9 @@ layout: default
 body_classes: page-contact
 ---
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <!-- or use local jquery -->
+<script src="/assets/js/jqBootstrapValidation.js"></script>
+
 {% if page.hero.enabled %}
   {% include framework/blocks/sections/hero.html 
     heading=page.hero.heading
@@ -45,6 +48,10 @@ body_classes: page-contact
 <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
 <!-- Calendly inline widget end -->
 
+<script>
+  $(function () { $("input,select,textarea").not("[type=submit]").jqBootstrapValidation(); } );
+</script>
+
 <div class="section strip-border-top">
   <div class="container">
     <div class="row justify-content-start">
@@ -58,27 +65,27 @@ body_classes: page-contact
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input name="name" id="name" type="text"
+                <input name="name" id="name" style="color: black" type="text"
                   placeholder="Imię*"
                   required="required" data-validation-required-message="Proszę wpisać imię.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="_replyto" class="form-control" id="email" type="email"
+                <input name="_replyto" class="form-control" id="email" style="color: black" type="email"
                   placeholder="Email*"
                   required="required" data-validation-required-message="Proszę wpisać adres email.">
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                <input name="phone" class="form-control" id="phone" type="tel"
-                  placeholder="Telefon"
+                <input name="phone" class="form-control" id="phone" style="color: black" type="tel"
+                  placeholder="Telefon*"
                   required="required" data-validation-required-message="Proszę wpisać nr telefonu.">
                 <p class="help-block text-danger"></p>
               </div>
 
               <div class="form-group">
-                <input name="nip" class="form-control" id="nip" type="text"
-                  placeholder="NIP"
+                <input name="nip" class="form-control" id="nip" style="color: black" type="text"
+                  placeholder="NIP*"
                   required="required" data-validation-required-message="Proszę wpisać nr NIP.">
                 <p class="help-block text-danger"></p>
               </div> 
@@ -88,7 +95,7 @@ body_classes: page-contact
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <textarea rows=8 name="message" class="form-control" id="message"
+                <textarea rows=8 name="message" class="form-control" id="message" style="color: black"
                   placeholder="Wiadomość*"
                   required="required" data-validation-required-message="Proszę wpisać wiadomość."></textarea>
                 <p class="help-block text-danger"></p>
