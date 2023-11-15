@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Katalog"
-  sub_heading: ""
+  sub_heading: "Szukasz czegoś konkretnego ? (sekcja w budowie)"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"

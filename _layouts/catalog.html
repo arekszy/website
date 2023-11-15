@@ -31,7 +31,7 @@ body_classes: page-catalog
   </div>
 {% endif %}
 
-<
+
 
   <div class="section strip-border-top">
     <div class="container">
@@ -42,9 +42,9 @@ body_classes: page-catalog
       <thead>
         <tr>
           <th></th>
-          <th>Producent</th>
-          <th>Part nr</th>
           <th>Kategoria</th>
+          <th>Producent</th>
+          <th>Part Number</th>
           <th>Cena</th>
           <th>Dostępność</th>
           
@@ -59,9 +59,10 @@ body_classes: page-catalog
           <td>{% if sku.thumbnail %}
             <a href="{{ sku.url | relative_url }}"><img alt="{{ sku.title }}" src="{{ sku.thumbnail | relative_url }}"/></a>
           {% endif %}</td>
+          <td>{{ sku.category }}</td>
           <td>{{ sku.manufacturer }}</td>
           <td><a href="{{ sku.url | relative_url }}"><b>{{ sku.Name }}</b></a></td>
-          <td>{{ sku.category }}</td>
+          
           <td>{{ sku.Price }}</td>
           <td>
             {% if sku.availability==1 %}
