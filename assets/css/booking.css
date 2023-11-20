@@ -125,3 +125,21 @@
   color: red;
   line-height: 0.5;
 }
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: white
+}
+input {
+  background-color: #0f0f10;
+  color:  white!important;
+  border-color: rgb(0, 183, 255)!important;
+}
+textarea {
+  background-color: #0f0f10;
+  color:  white!important;
+  border-color: rgb(0, 183, 255)!important;
+}
