@@ -2,18 +2,18 @@
 layout: cat_temp
 header_transparent: true
 manufacturer: Bosch Rexroth
-Name: "VT-SWA-1-13"
-category: Sensor
+Name: "VT-DFPC"
+category: Zawór hydrauliczny
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/VT-SWA-1-13_th.jpg"
-description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."
+thumbnail: "/assets/images/catalog/VT-DFPC_th.jpg"
+description: ""
 
 hero:
   enabled: true
   heading: "Bosch Rexroth"
-  sub_heading: "VT-SWA-1-13"
+  sub_heading: "VT-DFPC"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-DFPC.jpg" title="Bosch Rexroth VT-DFPC (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,17 +40,15 @@ hero:
 Popularne modele:
 ---
 
-VT-SWA-1
+- VT-DFPC
 
-VT-SWA-1-13
+- VT-DFPC-A-23/G24K0/0A0F/V
 
-VT-SWA-1-13/DFEE
+- VT-DFPC-A-2X/G24K0/0A0F/V
 
-VT-SWA-LIN
+- VT-DFPC-A-23/G24K0/2A0F/V
 
-VT-SWA-1-1X/SYDFEE
-
-VT-SWA-1-1X/DFEE-G15
+- R900709949
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 
