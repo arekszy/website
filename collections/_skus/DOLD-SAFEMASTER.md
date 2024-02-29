@@ -7,7 +7,7 @@ category: Przekaźnik
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/BG5924_th.jpg"
+thumbnail: "/assets/images/catalog/DOLD_th.jpg"
 description: ""
 
 hero:
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/BG5924.jpg" title="Dold BG5924 (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/DOLD.jpg" title="Dold BG5924 (zdjęcie poglądowe)" caption="" %}
 
 
 
