@@ -48,27 +48,27 @@ body_classes: page-post
          
           <div class="post-title">
             <h1>{{ page.Name }}<br/></h1>
-            <p>Kategoria: {{ page.category }}<br/></p>
-            <p>Producent: {{ page.manufacturer }}<br/></p>
+            <p>{{ page.category }}<br/></p>
+            <p>{{ page.manufacturer }}<br/></p>
           </div>
 
           <div>
             
             {% if page.availability==1 %}
-            <span class="dostepny">Produkt dostępny</span>
+            <span class="dostepny">Serwis dostępny</span>
             
             {% elsif page.availability==0 %}
             <span class="zamowienie">Na zamówienie</span>
 
             {% else %}
-            <span class="niedostepny">Serwis dostępny</span>
+            <span class="niedostepny">Niedostępny</span>
             {% endif %}
           <br><br/>
 
           </div>
           
           <span class="container-buttons">
-            {% if page.availability==1 or page.availability==0 %}<div class="container-btn"><a href="/contactform?t=new&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a></div>{% endif %}<div class="container-btn"><a href="/contactform?t=naprawa&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></div><br><br/>
+            {% if page.availability==0 %}<div class="container-btn"><a href="/contactform?t=new&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a></div>{% endif %}{% if page.availability==1 %}<div class="container-btn"><a href="/contactform?t=naprawa&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></div>{% endif %}<br><br/>
           </span>
         
           

@@ -44,7 +44,7 @@ main:
     url: /contact
     weight: 8
 footer_primary:
-  - name: Usługi
+  - name: Serwis
     url: /services/
     weight: 1
   - name: Technologie
@@ -52,6 +52,9 @@ footer_primary:
     weight: 2
   - name: Blog
     url: /blog/
+    weight: 3
+  - name: Katalog
+    url: /catalog/
     weight: 3
 footer_secondary:
   - name: Firma

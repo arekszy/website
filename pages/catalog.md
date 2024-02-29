@@ -19,7 +19,7 @@ hero:
   background_image: "/assets/images/gen/home/home-1-large.webp"
   height: "300px"
 
-  full_height_mobile: true
+  full_height_mobile: false
   buttons:
     enabled: false
     list:

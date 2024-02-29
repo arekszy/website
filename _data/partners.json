@@ -113,5 +113,25 @@
     "title": "Kobylarnia",
     "image": "assets/images/partners/kobylarnia.png",
     "url": ""
+  },
+  {
+    "title": "Keter",
+    "image": "assets/images/partners/keter.png",
+    "url": ""
+  },
+  {
+    "title": "Hanplast",
+    "image": "assets/images/partners/hanplast.svg",
+    "url": ""
+  },
+  {
+    "title": "Politechnika",
+    "image": "assets/images/partners/politechnika.svg",
+    "url": ""
+  },
+  {
+    "title": "Goldbeck",
+    "image": "assets/images/partners/gbc.png",
+    "url": ""
   }
 ]

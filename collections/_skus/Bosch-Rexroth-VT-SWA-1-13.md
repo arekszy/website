@@ -5,8 +5,8 @@ manufacturer: Bosch Rexroth
 Name: "VT-SWA-1-13"
 category: Sensor
 Sku: 1
-Price: wycena indywidualna
-availability: 
+Price: indyw.
+availability: 1
 thumbnail: "/assets/images/catalog/VT-SWA-1-13_th.jpg"
 description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."
 
@@ -33,7 +33,6 @@ hero:
 ---
 {% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
 
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/top.jpg" title="" caption="" %}
 
 
 ---
@@ -52,6 +51,8 @@ VT-SWA-1-1X/SYDFEE
 
 VT-SWA-1-1X/DFEE-G15
 
+---
 
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/top.jpg" title="" caption="" %}
 
 

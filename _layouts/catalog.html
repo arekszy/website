@@ -66,19 +66,19 @@ body_classes: page-catalog
           <td>{{ sku.Price }}</td>
           <td>
             {% if sku.availability==1 %}
-            <span class="dostepny">Dostępny</span>
+            <span class="dostepny">Serwis dostępny</span>
             
             {% elsif sku.availability==0 %}
             <span class="zamowienie">Na zamówienie</span>
 
             {% else %}
-            <span class="niedostepny">Serwis dostępny</span>
+            <span class="niedostepny">Niedostępny</span>
             {% endif %}
 
             
           </td>
           
-          <td>{% if sku.availability==1 or sku.availability==0 %}<a href="/contactform?t=new&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a><br><br>{% endif %}<a href="/contactform?t=naprawa&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></td>
+          <td>{% if sku.availability==0 %}<a href="/contactform?t=new&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a>{% endif %}{% if sku.availability==1 %}<a href="/contactform?t=naprawa&prno={{ sku.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a>{% endif %}</td>
         </tr>
         {% endfor %}
       </tbody>
