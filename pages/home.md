@@ -47,8 +47,8 @@ services:
 
 intro:
   enabled: true
-  align: center
-  image: false
+  align: left
+  image: "/assets/images/gen/home/work.jpg"
   heading: "Co Nas wyróżnia ?"
   sub_heading: ""
   features:
@@ -68,12 +68,12 @@ intro:
         fa_icon: "fas fa-toolbox"
       - text: "Wieloletnie doświadczenie"
         fa_icon: "fas fa-university"
-      - text: "Rosnąca społeczność stałych kontrahentów"
-        fa_icon: "fas fa-smile"
       - text: "Ekspresowa wysyłka"
         fa_icon: "fas fa-truck"
       - text: "We speak English"
         fa_icon: "fas fa-globe"
+      - text: "Rosnąca społeczność stałych kontrahentów"
+        fa_icon: "fas fa-smile"
   buttons:
     enabled: false
     list:

@@ -1,19 +1,19 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: B&R Automation
-Name: "ACOPOS"
-category: Serwo/falownik
+manufacturer: Dold
+Name: "Safemaster"
+category: Przekaźnik
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/acopos_th.jpg"
+thumbnail: "/assets/images/catalog/BG5924_th.jpg"
 description: ""
 
 hero:
   enabled: true
-  heading: "B&R Automation"
-  sub_heading: "ACOPOS"
+  heading: "Dold"
+  sub_heading: "Safemaster"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/acopos.jpg" title="B&R Automation ACOPOS (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/BG5924.jpg" title="Dold BG5924 (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,23 +40,37 @@ hero:
 Popularne modele:
 ---
 
-- 8V1010.00-2 ACOPOS 1010
+- BG5924
 
-- 8V1010.50-2 ACOPOS 1010
+- BN5930.48
 
-- 5V1022.00-2 ACOPOS 1022
+- LG592548/61
 
-- 8V1022.00-1 ACOPOS 1022
+- BG5925.03
 
-- 8V1022.00-2 ACOPOS 1022
+- BN3081.63
 
-- 8V1045.00-1 ACOPOS 1045
+- BG5924.04
 
-- 8V1045.00-2 ACOPOS 1045
+- BG5924.48
 
-- 8V1090.00-2 ACOPOS 1090
+- BG5924.02
 
-- 8V1320.00-2 ACOPOS 1320
+- UG6960.04PS
+
+- BH5928.93
+
+- BD598702/001
+
+- LG592548PC61
+
+- LG5924.02/61
+
+- LG5924.48
+
+- BN5983.53
+
+- LG5925.04
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 
