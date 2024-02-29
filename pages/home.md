@@ -2,7 +2,7 @@
 layout: home
 permalink: "/"
 title: "iTech Electronics"
-description: "iTech Electronics - Serwis elektroniki przemysłowej. Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych."
+description: "iTech Electronics - Serwis elektroniki przemysłowej. Wspieramy procesy technologiczne serwisując peryferia i urządzenia stosowane w przemyśle oraz na liniach produkcyjnych. We speak English."
 header_transparent: true
 meta_title: iTech Electronics - Wsparcie procesów technologicznych. Serwis elektroniki przemysłowej.
 
@@ -38,7 +38,7 @@ hero:
 
 services:
   enabled: true
-  heading: "JAK MOŻEMY POMÓC?"
+  heading: "OFERTA"
   sub_heading: ""
   limit: 6
   sort: "weight" # 'date'
@@ -70,6 +70,8 @@ intro:
         fa_icon: "fas fa-university"
       - text: "Rosnąca społeczność stałych kontrahentów"
         fa_icon: "fas fa-smile"
+      - text: "We speak English"
+        fa_icon: "fas fa-globe"
   buttons:
     enabled: false
     list:
@@ -91,7 +93,7 @@ partners:
 
 projects:
   enabled: true
-  heading: "Technologia"
+  heading: "TECHNOLOGIA"
   sub_heading: ""
   limit: 4
   columns: 2
@@ -103,7 +105,7 @@ outro:
   enabled: true
   align: center
   image: false
-  heading: "Opinie"
+  heading: "OPINIE"
   sub_heading: ""
   features:
     enabled: false
@@ -120,10 +122,10 @@ outro:
 
 posts:
   enabled: true
-  heading: "Najnowsze posty"
+  heading: "NAJNOWSZE POSTY"
   sub_heading: ""
-  limit: 4
-  columns: 2
+  limit: 6
+  columns: 4
   sort: "weight" # 'date'
   view_more_button_text: "BLOG"
   view_more_button_link: "/blog"
