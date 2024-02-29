@@ -2,7 +2,7 @@
 layout: cat_temp
 header_transparent: true
 manufacturer: Bosch Rexroth
-Name: "VT-SWA-1-13/DFEE"
+Name: "VT-SWA-1-13"
 category: Sensor
 Sku: 1
 Price: wycena indywidualna
@@ -12,14 +12,14 @@ description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydrauliczn
 
 hero:
   enabled: true
-  heading: ""
-  sub_heading: ""
+  heading: "Bosch Rexroth"
+  sub_heading: "VT-SWA-1-13"
   background_image: true
-  background_image_blend_mode: 
+  background_image_blend_mode: overlay
   background_color: "#38444e"
   background_gradient: false
-  background_image: "/assets/images/catalog/top.jpg"
-  height: "400px"
+  background_image: "/assets/images/gen/home/home-1-large.webp"
+  height: "300px"
 
   full_height_mobile: false
   buttons:
@@ -31,8 +31,10 @@ hero:
         fa_icon: false
         size: large
 ---
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
 
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/top.jpg" title="" caption="" %}
+
 
 ---
 
@@ -50,7 +52,6 @@ VT-SWA-1-1X/SYDFEE
 
 VT-SWA-1-1X/DFEE-G15
 
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/usluga1.jpg" title="Description" caption="" %}
 
 
 

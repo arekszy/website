@@ -11,7 +11,7 @@ image: ""
 hero:
   enabled: true
   heading: "Katalog"
-  sub_heading: "Szukasz czegoś konkretnego ? (sekcja w budowie)"
+  sub_heading: "Szukasz czegoś konkretnego ? (sekcja w trakcie aktualizacji)"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -19,7 +19,7 @@ hero:
   background_image: "/assets/images/gen/home/home-1-large.webp"
   height: "300px"
 
-  full_height_mobile: false
+  full_height_mobile: true
   buttons:
     enabled: false
     list:
