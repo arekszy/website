@@ -1,19 +1,19 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: Bosch Rexroth
-Name: "VT-SWA-1-13"
-category: Sensor
+manufacturer: HBC Radiomatic
+Name: "Micron"
+category: System radiowy
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/VT-SWA-1-13_th.jpg"
-description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."
+thumbnail: "/assets/images/catalog/MICRON_th.jpg"
+description: ""
 
 hero:
   enabled: true
-  heading: "Bosch Rexroth"
-  sub_heading: "VT-SWA-1-13"
+  heading: "Katalog"
+  sub_heading: "Szukasz czegoś konkretnego ?"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/MICRON.jpg" title="HBC Radiomatic Micron (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,17 +40,30 @@ hero:
 Popularne modele:
 ---
 
-VT-SWA-1
+Micron 5 TC240
 
-VT-SWA-1-13
+Micron 5 FSS516
 
-VT-SWA-1-13/DFEE
+Micron 5 FSS 512
 
-VT-SWA-LIN
+Micron FST 512
 
-VT-SWA-1-1X/SYDFEE
+Micron T TC241
 
-VT-SWA-1-1X/DFEE-G15
+Micron 5 Master
+
+Micron 5 FSS 514
+
+Micron 4 Master
+
+Micron 4 Slave
+
+Micron 7
+
+Micron M
+
+
+
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 

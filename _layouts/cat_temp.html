@@ -109,9 +109,6 @@ body_classes: page-post
 
       <div class="col-12 col-lg-8">
         <div class="content">{{ content }}</div>
-        <span class="container-buttons">
-          {% if page.availability==0 %}<div class="container-btn"><a href="/contactform?t=new&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o produkt</button></a></div>{% endif %}{% if page.availability==1 %}<div class="container-btn"><a href="/contactform?t=naprawa&prno={{ page.Name }}"><button class="btn_blu" type="button">Zapytaj o naprawę</button></a></div>{% endif %}<br><br/>
-        </span>
       </div>       
     </div>
   </div>

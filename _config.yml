@@ -171,7 +171,7 @@ footer:
 bottom:
   enable_bottom: true # show/hide the entire bottom (below the footer)
   enable_bottom_menu: true # if enabled, the bottom menu can be edited in `_data/menu.yml`
-  copyright_text: "© 2023 iTech Electronics"
+  copyright_text: "© 2021-2024 iTech Electronics"
 
 sidebar:
   enable_sidebar_services: true

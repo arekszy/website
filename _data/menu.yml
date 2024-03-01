@@ -28,21 +28,21 @@ main:
         url: /projects/reverse-engineering/
       - name: "Microsoldering"
         url: /projects/microsoldering/
-  - name: Blog
-    url: /blog/
-    weight: 4
   - name: Katalog
     url: /catalog/
-    weight: 5  
+    weight: 3
+  - name: Blog
+    url: /blog/
+    weight: 4  
   - name: Firma
     url: /about/
-    weight: 6
+    weight: 5
   - name: Tracking
     url: https://naprawiam.online
-    weight: 7
+    weight: 6
   - name: Kontakt
     url: /contact
-    weight: 8
+    weight: 7
 footer_primary:
   - name: Serwis
     url: /services/
@@ -55,7 +55,7 @@ footer_primary:
     weight: 3
   - name: Katalog
     url: /catalog/
-    weight: 3
+    weight: 4
 footer_secondary:
   - name: Firma
     url: /blog/

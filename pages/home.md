@@ -98,7 +98,7 @@ projects:
   heading: "TECHNOLOGIA"
   sub_heading: ""
   limit: 4
-  columns: 2
+  columns: 4
   sort: "weight" # 'date'
   view_more_button_text: "Więcej"
   view_more_button_link: "/projects"

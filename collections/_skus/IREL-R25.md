@@ -1,19 +1,19 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: Bosch Rexroth
-Name: "VT-SWA-1-13"
-category: Sensor
+manufacturer: IREL
+Name: "R25"
+category: System radiowy
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/VT-SWA-1-13_th.jpg"
-description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."
+thumbnail: "/assets/images/catalog/R25_th.jpg"
+description: "Przemysłowe systemy zdalnego sterowania do suwnic."
 
 hero:
   enabled: true
-  heading: "Bosch Rexroth"
-  sub_heading: "VT-SWA-1-13"
+  heading: "Katalog"
+  sub_heading: "Szukasz czegoś konkretnego ?"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/R25.jpg" title="System radiowy IREL (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,17 +40,22 @@ hero:
 Popularne modele:
 ---
 
-VT-SWA-1
+R25 bbm-mv4.8
 
-VT-SWA-1-13
+R25 bm-v4.8
 
-VT-SWA-1-13/DFEE
+R25 m-mv6.12
 
-VT-SWA-LIN
+R25 m-v6.12
 
-VT-SWA-1-1X/SYDFEE
+R25 s-v8.R.15
 
-VT-SWA-1-1X/DFEE-G15
+R25sT2-v10.R.17
+
+R25 sr-j3.Js3.19
+
+R25 sr-j1.Js4.29
+
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 

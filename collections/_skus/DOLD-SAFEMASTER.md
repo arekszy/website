@@ -12,8 +12,8 @@ description: ""
 
 hero:
   enabled: true
-  heading: "Dold"
-  sub_heading: "Safemaster"
+  heading: "Katalog"
+  sub_heading: "Szukasz czegoś konkretnego ?"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"

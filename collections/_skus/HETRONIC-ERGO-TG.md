@@ -1,19 +1,19 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: Bosch Rexroth
-Name: "VT-SWA-1-13"
-category: Sensor
+manufacturer: Hetronic
+Name: "NOVA/ERGO"
+category: System radiowy
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/VT-SWA-1-13_th.jpg"
-description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."
+thumbnail: "/assets/images/catalog/hetronic_th.jpg"
+description: ""
 
 hero:
   enabled: true
-  heading: "Bosch Rexroth"
-  sub_heading: "VT-SWA-1-13"
+  heading: "Katalog"
+  sub_heading: "Szukasz czegoś konkretnego ?"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/VT-SWA-1-13.jpg" title="Bosch Rexroth VT-SWA-1-13/DFEE (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/Hetronic.jpg" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,17 +40,22 @@ hero:
 Popularne modele:
 ---
 
-VT-SWA-1
+Nova-L 4K
 
-VT-SWA-1-13
+Nova-L 6L RX BMS-A PWM
 
-VT-SWA-1-13/DFEE
+Nova-L 6L/K
 
-VT-SWA-LIN
+Nova-M/K
 
-VT-SWA-1-1X/SYDFEE
+Ergo V4
 
-VT-SWA-1-1X/DFEE-G15
+Ergo V5
+
+Ergo V8
+
+Ergo Z301424.A-S
+
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 

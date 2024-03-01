@@ -28,8 +28,8 @@ hero:
         size: large
 ---
 
-# Poznaj serwis iTech Electronics !
-Serwis iTech Electronics wykorzystuje doświadczenie oraz innowacyjne metody diagnostyczne z użyciem nowoczesnych rozwiązań technologicznych, takich jak np. badania termograficzne i mikroobrazowe. Dzięki temu iTech przeprowadzi naprawę Twojego urządzenia nawet na poziomie komponentowym, co pozwoli uchronić przed wymianą drogiego lub niedostępnego modułu od producenta (na przykład płyty głównej) oraz zmniejszy generalny koszt naprawy.
+# Poznaj iTech Electronics !
+Firma iTech Electronics wykorzystuje doświadczenie oraz innowacyjne metody diagnostyczne z użyciem nowoczesnych rozwiązań technologicznych, takich jak np. badania termograficzne i mikroobrazowe. Dzięki temu iTech przeprowadzi naprawę Twojego urządzenia nawet na poziomie komponentowym, co pozwoli uchronić przed wymianą drogiego lub niedostępnego modułu od producenta (na przykład płyty głównej) oraz zmniejszy generalny koszt naprawy.
 
 >Pracujemy na narzędziach renomowanych producentów takich jak Fluke, JBC, Agilent Technologies, Rigol, Quick oraz FLIR.
 
