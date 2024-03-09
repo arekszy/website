@@ -2,7 +2,7 @@
 layout: cat_temp
 header_transparent: true
 manufacturer: Sigmatek
-Name: "DIAS CPU"
+Name: "DIAS-CPU"
 category: Moduł rozszerzeń
 Sku: 1
 Price: wym. diag.

@@ -7,7 +7,7 @@ category: System radiowy
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/MICRON_th.jpg"
+thumbnail: "/assets/images/catalog/micron_th.jpg"
 description: ""
 
 hero:
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/MICRON.jpg" title="HBC Radiomatic Micron (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/micron.jpg" title="HBC Radiomatic Micron (zdjęcie poglądowe)" caption="" %}
 
 
 

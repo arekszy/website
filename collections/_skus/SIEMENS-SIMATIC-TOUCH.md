@@ -1,13 +1,13 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: Hetronic
-Name: "NOVA/ERGO"
-category: System radiowy
+manufacturer: Siemens
+Name: "SIMATIC-TOUCH"
+category: HMI
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/hetronic_th.jpg"
+thumbnail: "/assets/images/catalog/siemenshmi_th.jpg"
 description: ""
 
 hero:
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/Hetronic.jpg" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/siemenshmi.jpg" title="Siemens SIMATIC TOUCH HMI TP1500 COMFORT (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -40,21 +40,51 @@ hero:
 Popularne modele:
 ---
 
-Nova-L 4K
+- TP700 COMFORT
 
-Nova-L 6L RX BMS-A PWM
+- TP900 COMFORT
 
-Nova-L 6L/K
+- TP177B
 
-Nova-M/K
+- TP277
 
-Ergo V4
+- TP177
 
-Ergo V5
+- TP070
 
-Ergo V8
+- TP170
 
-Ergo Z301424.A-S
+- TP270
+
+- TP1500 COMFORT
+
+- TP1200
+
+- KTP400
+
+- KTP600
+
+- KTP700
+
+- KTP900
+
+- KTP400 COMFORT
+
+- KTP1200
+
+- KTP1000
+
+- MP370
+
+- MP270
+
+- MP377
+
+- MP370
+
+- MP177
+
+- MP270B
 
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
