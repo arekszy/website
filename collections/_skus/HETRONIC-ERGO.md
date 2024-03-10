@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/Hetronic.jpg" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/hetronic.jpg" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
 
 
 
