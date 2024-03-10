@@ -128,5 +128,20 @@
     "title": "Goldbeck",
     "image": "assets/images/partners/gb.png",
     "url": ""
+  },
+  {
+    "title": "Stovit",
+    "image": "assets/images/partners/stovit.png",
+    "url": ""
+  },
+  {
+    "title": "Rlab",
+    "image": "assets/images/partners/rlab.png",
+    "url": ""
+  },
+  {
+    "title": "Electra Polska",
+    "image": "assets/images/partners/electra.png",
+    "url": ""
   }
 ]
