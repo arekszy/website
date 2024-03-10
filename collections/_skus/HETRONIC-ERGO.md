@@ -7,7 +7,7 @@ category: System radiowy
 Sku: 1
 Price: wym. diag.
 availability: 1
-thumbnail: "/assets/images/catalog/hetronic_th.jpg"
+thumbnail: "/assets/images/catalog/hetronic_th.png"
 description: ""
 
 hero:
@@ -31,7 +31,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/hetronic.jpg" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/hetronic.png" title="Hetronic NOVA-L 6L RX BMS-2 PWM (zdjęcie poglądowe)" caption="" %}
 
 
 
