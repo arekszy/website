@@ -41,7 +41,7 @@ main:
     url: https://naprawiam.online
     weight: 6
   - name: Kontakt
-    url: /contact
+    url: /contact/
     weight: 7
 footer_primary:
   - name: Serwis

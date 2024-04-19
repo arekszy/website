@@ -43,7 +43,7 @@ services:
   limit: 6
   sort: "weight" # 'date'
   view_more_button_text: "Więcej"
-  view_more_button_link: "/services"
+  view_more_button_link: "/services/"
 
 intro:
   enabled: true
@@ -78,7 +78,7 @@ intro:
     enabled: false
     list:
       - text: "text"
-        url: "/about"
+        url: "/about/"
         external: false
         fa_icon: ""
         size: large
@@ -101,7 +101,7 @@ projects:
   columns: 4
   sort: "weight" # 'date'
   view_more_button_text: "Więcej"
-  view_more_button_link: "/projects"
+  view_more_button_link: "/projects/"
 
 outro:
   enabled: true
@@ -118,7 +118,7 @@ outro:
     enabled: false
     list:
       - text: "Kontakt"
-        url: "/contact"
+        url: "/contact/"
         external: false
         size: "large"
 
@@ -130,5 +130,5 @@ posts:
   columns: 4
   sort: "weight" # 'date'
   view_more_button_text: "BLOG"
-  view_more_button_link: "/blog"
+  view_more_button_link: "/blog/"
 ---
