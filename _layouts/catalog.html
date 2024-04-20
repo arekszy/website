@@ -42,9 +42,9 @@ body_classes: page-catalog
       <thead>
         <tr>
           <th></th>
-          <th>Kategoria</th>
-          <th>Producent</th>
           <th>Seria</th>
+          <th>Producent</th>
+          <th>Kategoria</th>
           <th>Cena</th>
           <th>Dostępność</th>
           
@@ -59,10 +59,9 @@ body_classes: page-catalog
           <td>{% if sku.thumbnail %}
             <a href="{{ sku.url | relative_url }}"><img alt="{{ sku.title }}" src="{{ sku.thumbnail | relative_url }}"/></a>
           {% endif %}</td>
-          <td>{{ sku.category }}</td>
-          <td>{{ sku.manufacturer }}</td>
           <td><a href="{{ sku.url | relative_url }}"><b>{{ sku.Name }}</b></a></td>
-          
+          <td>{{ sku.manufacturer }}</td>
+          <td>{{ sku.category }}</td>
           <td>{{ sku.Price }}</td>
           <td>
             {% if sku.availability==1 %}
@@ -85,12 +84,14 @@ body_classes: page-catalog
 
       
     </table>
-    <div>Ostatnia aktualizacja: 09.03.2024</div>
+    <div>Ostatnia aktualizacja: 19.04.2024</div>
           </div>
         </div>
       </div>
     </div>
   </div>
 
-
-  
+  <style>
+    #example_wrapper{overflow-x:auto}
+    #example_wrapper #example img{margin:10px 0 !important}
+  </style>
