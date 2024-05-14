@@ -1,18 +1,18 @@
 ---
 layout: cat_temp
 header_transparent: true
-manufacturer: HBC Radiomatic
-Name: "Micron"
-category: System radiowy
+manufacturer: Wittmann
+Name: "WDrive"
+category: Falownik
 Sku: 1
 availability: 1
-thumbnail: "/assets/images/catalog/micron_th.jpg"
+thumbnail: "/assets/images/catalog/WDrive_th.jpg"
 description: ""
 
 hero:
   enabled: true
   heading: "Katalog"
-  sub_heading: "Szukasz czegoś konkretnego ?"
+  sub_heading: "Szukasz czegoś konkretnego ?"
   background_image: true
   background_image_blend_mode: overlay
   background_color: "#38444e"
@@ -30,7 +30,7 @@ hero:
         fa_icon: false
         size: large
 ---
-{% include framework/shortcodes/figure.html src="/assets/images/catalog/micron.jpg" title="HBC Radiomatic Micron (zdjęcie poglądowe)" caption="" %}
+{% include framework/shortcodes/figure.html src="/assets/images/catalog/WDrive.jpg" title="Wittmann WDrive EU-186 (zdjęcie poglądowe)" caption="" %}
 
 
 
@@ -39,30 +39,25 @@ hero:
 Popularne modele:
 ---
 
-Micron 5 TC240
+- WDrive
 
-Micron 5 FSS516
+- EU-173
 
-Micron 5 FSS 512
+- EU-185
 
-Micron FST 512
+- EU-186
 
-Micron T TC241
+- EU-189
 
-Micron 5 Master
+- EU-224
 
-Micron 5 FSS 514
+- EU-252
 
-Micron 4 Master
+- EU-264
 
-Micron 4 Slave
+- EU-266
 
-Micron 7
-
-Micron M
-
-
-
+- EU-175
 
 >Jeśli model Twojego urządzenia nie znajduje się na liście - prosimy o wysłanie zapytania w celu weryfikacji indywidualnej
 

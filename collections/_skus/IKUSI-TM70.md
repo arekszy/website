@@ -5,7 +5,6 @@ manufacturer: IKUSI
 Name: "TM70"
 category: System radiowy
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/TM70_th.jpg"
 description: ""

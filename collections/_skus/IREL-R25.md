@@ -5,7 +5,6 @@ manufacturer: IREL
 Name: "R25"
 category: System radiowy
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/R25_th.jpg"
 description: "Przemysłowe systemy zdalnego sterowania do suwnic."

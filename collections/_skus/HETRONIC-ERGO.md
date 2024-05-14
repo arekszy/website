@@ -5,7 +5,6 @@ manufacturer: Hetronic
 Name: "NOVA/ERGO"
 category: System radiowy
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/hetronic_th.png"
 description: ""

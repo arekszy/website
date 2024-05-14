@@ -5,7 +5,6 @@ manufacturer: Sigmatek
 Name: "DIAS-CPU"
 category: Moduł rozszerzeń
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/DIAS-CPU_th.jpg"
 description: ""

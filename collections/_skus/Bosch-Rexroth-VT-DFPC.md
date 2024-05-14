@@ -5,7 +5,6 @@ manufacturer: Bosch Rexroth
 Name: "VT-DFPC"
 category: Zawór hydrauliczny
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/VT-DFPC_th.jpg"
 description: ""

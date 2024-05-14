@@ -5,7 +5,6 @@ manufacturer: KEBA
 Name: "TT081"
 category: Moduł rozszerzeń
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/TT081_th.jpg"
 description: ""

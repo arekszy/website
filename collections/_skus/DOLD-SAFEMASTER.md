@@ -5,7 +5,6 @@ manufacturer: Dold
 Name: "Safemaster"
 category: Przekaźnik
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/DOLD_th.jpg"
 description: ""

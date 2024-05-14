@@ -5,7 +5,6 @@ manufacturer: Bosch Rexroth
 Name: "VT-SWA"
 category: Sensor
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/VT-SWA_th.jpg"
 description: "Czujnik ten współpracuje z proporcjonalnymi zaworami hydraulicznymi firmy BOSCH - REXROTH i jest często stosowany w starszego typu wtryskarkach firmy ENGEL."

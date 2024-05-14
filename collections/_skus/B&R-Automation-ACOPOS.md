@@ -5,7 +5,6 @@ manufacturer: B&R Automation
 Name: "ACOPOS"
 category: Serwo/falownik
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/acopos_th.jpg"
 description: ""

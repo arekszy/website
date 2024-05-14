@@ -5,7 +5,6 @@ manufacturer: Siemens
 Name: "SIMATIC-TOUCH"
 category: HMI
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/siemenshmi_th.jpg"
 description: ""

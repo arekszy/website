@@ -5,7 +5,6 @@ manufacturer: MOVACOLOR
 Name: "MCBalance"
 category: Sterownik
 Sku: 1
-Price: wym. diag.
 availability: 1
 thumbnail: "/assets/images/catalog/MOVACOLOR_th.jpg"
 description: ""

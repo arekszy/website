@@ -45,7 +45,6 @@ body_classes: page-catalog
           <th>Seria</th>
           <th>Producent</th>
           <th>Kategoria</th>
-          <th>Cena</th>
           <th>Dostępność</th>
           
           <th></th>
@@ -62,7 +61,6 @@ body_classes: page-catalog
           <td><a href="{{ sku.url | relative_url }}"><b>{{ sku.Name }}</b></a></td>
           <td>{{ sku.manufacturer }}</td>
           <td>{{ sku.category }}</td>
-          <td>{{ sku.Price }}</td>
           <td>
             {% if sku.availability==1 %}
             <span class="dostepny">Serwis dostępny</span>
@@ -84,7 +82,7 @@ body_classes: page-catalog
 
       
     </table>
-    <div>Ostatnia aktualizacja: 19.04.2024</div>
+    <div>Ostatnia aktualizacja: 25.04.2024</div>
           </div>
         </div>
       </div>
