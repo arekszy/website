@@ -4,71 +4,72 @@ body_classes: page-home
 ---
 
 {% if page.hero.enabled %}
-  {% include framework/blocks/sections/hero.html
-    heading=page.hero.heading
-    sub_heading=page.hero.sub_heading
-    background_image=page.hero.background_image
-    background_image_blend_mode=page.hero.background_image_blend_mode
-    background_color=page.hero.background_color
-    background_gradient=page.hero.background_gradient
-    text_color=page.hero.text_color
-    fullscreen_mobile=page.hero.fullscreen_mobile
-    fullscreen_desktop=page.hero.fullscreen_desktop
-    height=page.hero.height
-    buttons=page.hero.buttons
-  %}
+{% include framework/blocks/sections/hero.html
+heading=page.hero.heading
+sub_heading=page.hero.sub_heading
+background_image=page.hero.background_image
+background_image_blend_mode=page.hero.background_image_blend_mode
+background_color=page.hero.background_color
+background_gradient=page.hero.background_gradient
+text_color=page.hero.text_color
+fullscreen_mobile=page.hero.fullscreen_mobile
+fullscreen_desktop=page.hero.fullscreen_desktop
+height=page.hero.height
+buttons=page.hero.buttons
+%}
 {% else %}
-  <div class="section">
-    <div class="container">
+<div class="section">
+  <div class="container">
     {% include framework/blocks/sections/title.html
-      fa_icon=page.fa_icon
-      icon=page.icon
-      title=page.title
-      description=page.description
-      image=page.image
+    fa_icon=page.fa_icon
+    icon=page.icon
+    title=page.title
+    description=page.description
+    image=page.image
     %}
-    </div>
   </div>
+</div>
 {% endif %}
 
 {% assign cards = site.services | sort: 'date' | reverse %}
 {% assign limit = page.services.limit | default: 3 %}
 {% assign sort_by = page.services.sort | default: 'date' %}
-{% assign columns =  page.services.columns | default: 3 %}
+{% assign columns = page.services.columns | default: 3 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
-  {% assign cards = cards | sort: 'weight' %}
+{% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
 {% if page.services.enabled %}
-  <div class="section bg-base-bg-2">
-    <div class="container">
-      <div class="row">
+<div class="section bg-base-bg-2">
+  <div class="container">
+    <div class="row">
 
-        {% include framework/blocks/components/grid-header.html
-          heading=page.services.heading
-          sub_heading=page.services.sub_heading
-          align="center"
-        %}
-        
-        {% for card in cards limit: limit %}
-          <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-services.html 
-              title=card.title 
-              description=card.description
-              fa_icon=card.fa_icon
-              icon=card.icon
-              url=card.url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
+      {% include framework/blocks/components/grid-header.html
+      heading=page.services.heading
+      sub_heading=page.services.sub_heading
+      align="center"
+      %}
 
-        {% include framework/blocks/components/grid-footer.html 
-          view_more_button_text=page.services.view_more_button_text
-          view_more_button_link=page.services.view_more_button_link
-          align="center"
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
+        {% include theme/cards/card-services.html
+        title=card.title
+        description=card.description
+        fa_icon=card.fa_icon
+        icon=card.icon
+        url=card.url
+        weight=card.weight
         %}
+      </div>
+      {% endfor %}
+
+      {% include framework/blocks/components/grid-footer.html
+      view_more_button_text=page.services.view_more_button_text
+      view_more_button_link=page.services.view_more_button_link
+      align="center"
+      %}
 
     </div>
   </div>
@@ -76,18 +77,18 @@ body_classes: page-home
 {% endif %}
 
 {% if page.intro.enabled %}
-  <div class="section">
-    <div class="container">
-      {% include framework/blocks/sections/info.html
-      heading=page.intro.heading
-      sub_heading=page.intro.sub_heading
-      align=page.intro.align
-      features=page.intro.features
-      buttons=page.intro.buttons
-      image=page.intro.image
-      %}
-    </div>
+<div class="section">
+  <div class="container">
+    {% include framework/blocks/sections/info.html
+    heading=page.intro.heading
+    sub_heading=page.intro.sub_heading
+    align=page.intro.align
+    features=page.intro.features
+    buttons=page.intro.buttons
+    image=page.intro.image
+    %}
   </div>
+</div>
 {% endif %}
 
 
@@ -114,40 +115,41 @@ body_classes: page-home
 {% assign cards = site.projects | sort: 'date' | reverse %}
 {% assign limit = page.projects.limit | default: 2 %}
 {% assign sort_by = page.projects.sort | default: 'date' %}
-{% assign columns =  page.projects.columns | default: 2 %}
+{% assign columns = page.projects.columns | default: 2 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
-  {% assign cards = cards | sort: 'weight' %}
+{% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
 {% if page.projects.enabled %}
-  <div class="section bg-base-bg-2">
-    <div class="container">
-      <div class="row">
+<div class="section bg-base-bg-2">
+  <div class="container">
+    <div class="row">
 
-        {% include framework/blocks/components/grid-header.html
-          heading=page.projects.heading
-          sub_heading=page.projects.sub_heading
-          align="center"
-        %}
-        
-        {% for card in cards limit: limit %}
-          <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-projects.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=card.url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
+      {% include framework/blocks/components/grid-header.html
+      heading=page.projects.heading
+      sub_heading=page.projects.sub_heading
+      align="center"
+      %}
 
-        {% include framework/blocks/components/grid-footer.html 
-          view_more_button_text=page.projects.view_more_button_text
-          view_more_button_link=page.projects.view_more_button_link
-          align="center"
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
+        {% include theme/cards/card-projects.html
+        title=card.title
+        description=card.description
+        thumbnail=card.thumbnail
+        url=card.url
+        weight=card.weight
         %}
+      </div>
+      {% endfor %}
+
+      {% include framework/blocks/components/grid-footer.html
+      view_more_button_text=page.projects.view_more_button_text
+      view_more_button_link=page.projects.view_more_button_link
+      align="center"
+      %}
 
     </div>
   </div>
@@ -159,7 +161,7 @@ body_classes: page-home
 {% if page.outro.enabled %}
 <div class="section">
   <div class="container">
-    
+
     {% include framework/blocks/sections/info.html
     heading=page.outro.heading
     sub_heading=page.outro.sub_heading
@@ -168,148 +170,407 @@ body_classes: page-home
     buttons=page.outro.buttons
     image=page.outro.image
     %}
-    <center><div class="owl-carousel owl-theme" id="owl-demo">
-      <div>
-        <div class="owl-text-overlay ">
-          <h2 class="owl-title"></h2>
-        </div>
+    <!-- <center>
+      <div class="owl-carousel owl-theme" id="owl-demo">
+        <div>
+          <div class="owl-text-overlay ">
+            <h2 class="owl-title"></h2>
+          </div>
           <img class="owl-img" src="assets/images/reviews/1.webp">
-        
-      </div>
-      
 
-      <div>
-        <div class="owl-text-overlay hidden-xs">
-          <h2 class="owl-title"></h2>
-          
-        </div><img class="owl-img" src="assets/images/reviews/3.webp"></div>
+        </div>
+
 
         <div>
           <div class="owl-text-overlay hidden-xs">
             <h2 class="owl-title"></h2>
-            
-          </div><img class="owl-img" src="assets/images/reviews/4.webp"></div>
 
-            <div>
-              <div class="owl-text-overlay hidden-xs">
-                <h2 class="owl-title"></h2>
-                
-              </div><img class="owl-img" src="assets/images/reviews/6.webp"></div>
-              
-              
-                <div>
-                  <div class="owl-text-overlay hidden-xs">
-                    <h2 class="owl-title"></h2>
-                    
-                  </div><img class="owl-img" src="assets/images/reviews/8.webp"></div>
+          </div><img class="owl-img" src="assets/images/reviews/3.webp">
+        </div>
 
-                  <div>
-                    <div class="owl-text-overlay hidden-xs">
-                      <h2 class="owl-title"></h2>
-                      
-                    </div><img class="owl-img" src="assets/images/reviews/9.webp"></div>
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
 
-                    <div>
-                      <div class="owl-text-overlay hidden-xs">
-                        <h2 class="owl-title"></h2>
-                        
-                      </div><img class="owl-img" src="assets/images/reviews/10.webp"></div>
+          </div><img class="owl-img" src="assets/images/reviews/4.webp">
+        </div>
 
-                      <div>
-                        <div class="owl-text-overlay hidden-xs">
-                          <h2 class="owl-title"></h2>
-                          
-                        </div><img class="owl-img" src="assets/images/reviews/11.webp"></div>
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
 
-                        <div>
-                          <div class="owl-text-overlay hidden-xs">
-                            <h2 class="owl-title"></h2>
-                            
-                          </div><img class="owl-img" src="assets/images/reviews/12.webp"></div>
+          </div><img class="owl-img" src="assets/images/reviews/6.webp">
+        </div>
 
-                          <div>
-                            <div class="owl-text-overlay hidden-xs">
-                              <h2 class="owl-title"></h2>
-                              
-                            </div><img class="owl-img" src="assets/images/reviews/13.webp"></div>
 
-                            <div>
-                              <div class="owl-text-overlay hidden-xs">
-                                <h2 class="owl-title"></h2>
-                                
-                              </div><img class="owl-img" src="assets/images/reviews/14.webp"></div>
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
 
-                              <div>
-                                <div class="owl-text-overlay hidden-xs">
-                                  <h2 class="owl-title"></h2>
-                                  
-                                </div><img class="owl-img" src="assets/images/reviews/15.webp"></div>
+          </div><img class="owl-img" src="assets/images/reviews/8.webp">
+        </div>
 
-                                <div>
-                                  <div class="owl-text-overlay hidden-xs">
-                                    <h2 class="owl-title"></h2>
-                                    
-                                  </div><img class="owl-img" src="assets/images/reviews/16.webp"></div>
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
 
-                                  <div>
-                                    <div class="owl-text-overlay hidden-xs">
-                                      <h2 class="owl-title"></h2>
-                                      
-                                    </div><img class="owl-img" src="assets/images/reviews/17.webp"></div>
+          </div><img class="owl-img" src="assets/images/reviews/9.webp">
+        </div>
 
-                                    <div>
-                                      <div class="owl-text-overlay hidden-xs">
-                                        <h2 class="owl-title"></h2>
-                                        
-                                      </div><img class="owl-img" src="assets/images/reviews/18.webp"></div>
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
 
-                                      <div>
-                                        <div class="owl-text-overlay hidden-xs">
-                                          <h2 class="owl-title"></h2>
-                                          
-                                        </div><img class="owl-img" src="assets/images/reviews/19.webp"></div></div></center>
+          </div><img class="owl-img" src="assets/images/reviews/10.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/11.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/12.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/13.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/14.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/15.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/16.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/17.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/18.webp">
+        </div>
+
+        <div>
+          <div class="owl-text-overlay hidden-xs">
+            <h2 class="owl-title"></h2>
+
+          </div><img class="owl-img" src="assets/images/reviews/19.webp">
+        </div>
+      </div>
+    </center> -->
+    <style>
+      .review-box {
+        border: 1px solid #b6c3d6;
+        border-color: rgb(0, 183, 255) !important;
+        border-radius: 4px;
+        padding: 15px;
+        width: calc((100% / 3) - 30px);
+        display: none;
+      }
+      .review-box.show {
+        display: block;
+      }
+
+      @media(max-width:991px) {
+        .review-box {
+          width: calc((100% / 2) - 20px);
+        }
+      }
+
+      @media(max-width:600px) {
+        .review-box {
+          width: calc(100% - 20px)
+        }
+      }
+
+      .review-box p {
+        color: #b6c3d6;
+      }
+
+      .review-box span {
+        color: #00B6FF;
+      }
+
+      .review-box .author {
+        font-style: italic;
+      }
+
+      .reviews .button-review {
+        margin: 0 auto;
+        width: 100px;
+        text-align: center;
+        cursor: pointer;
+      }
+
+      .review-box .stars {
+        width: 100px;
+        height: 20px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-image: url("data:image/svg+xml,%3Csvg width='1707' height='313' viewBox='0 0 1707 313' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M157.467 2.59998C148.267 7.13332 142.133 18.8667 129.333 55.6667C124.8 68.8667 119.333 83.5333 117.067 88.0667C111.067 100.867 111.333 100.733 64.6667 100.467C24.2667 100.2 15.3333 101.133 7.2 106.467C-0.133329 111.267 -1.86666 120.2 2.8 129C7.06667 137 14.8 144.467 35.3333 160.067C75.2 190.2 77.8667 193.133 76.1333 204.333C75.6 207.667 70.1333 225 64 242.867C56 266.6 52.8 277.933 52.2667 284.333C51.2 300.6 56.2667 308.333 68.1333 308.333C77.6 308.333 87.4667 304.067 103.6 293C140.8 267.4 150 261.533 154.933 260.067C159.867 258.6 160.933 258.733 167.2 262.067C173.6 265.4 178.533 269 211.333 293.933C238.4 314.467 255.733 317.933 262.8 304.067C267.867 294.2 265.867 280.6 253.467 241.267C246.8 219.8 243.467 205.133 244.533 201.133C245.733 196.067 255.067 188.2 279.867 171C307.333 151.933 316.4 144.467 320.8 137C327.867 124.867 322.933 113.133 308.933 109C300.4 106.467 274.8 104.467 249.867 104.333C239.467 104.333 227.733 103.8 223.867 103C213.733 101.133 210.667 97.1333 204.133 76.4667C201.2 67.2667 196 50.8667 192.667 40.2C185.333 16.7333 179.733 7.13332 171.6 3.13332C164.667 -0.200016 163.333 -0.200016 157.467 2.59998Z' fill='%2300B6FF' /%3E%3Cpath d='M504.667 1.53324C500.667 3.26657 495.333 8.5999 491.733 14.4666C487.2 21.7999 483.467 30.9999 474.4 56.9999C470.133 69.3999 464.8 83.3999 462.667 88.0666C456.8 100.733 457.333 100.6 406.667 100.867C360.933 101 358.533 101.4 350.667 108.733C344.933 114.2 344.267 120.067 348.533 128.867C352.667 137.4 360 144.467 382.8 161.667C408.933 181.4 417.067 188.2 420.133 193.267C422.8 197.533 422.933 198.467 421.333 206.067C420.533 210.6 415.867 225.133 411.2 238.2C397.2 277.133 394.8 289.933 399.467 299.8C402.667 306.333 408 308.867 417.6 307.933C427.467 307 436.533 302.067 465.333 281.933C488.933 265.4 499.867 259 504.533 259C509.333 259 519.6 265.667 545.333 285.133C573.867 306.733 583.867 312.333 594 312.333C605.333 312.333 610.667 305.667 610.667 291.267C610.667 281.8 608.533 273.133 598.533 239.8C593.867 224.333 590.533 210.333 590.267 206.067C590 198.733 590 198.733 597.467 191.8C601.467 188.067 613.733 178.867 624.8 171.4C650.667 153.533 659.2 146.867 664 140.067C669.6 132.333 670.933 126.6 668.533 120.467C664 109 652.133 105.933 606.667 104.733C568 103.8 562 102.733 557.867 96.5999C554.4 91.3999 550 79.2666 542.667 54.3332C533.333 22.5999 527.067 8.86657 519.467 3.93324C515.467 1.26657 508.133 0.066569 504.667 1.53324Z' fill='%2300B6FF' /%3E%3Cpath d='M849.867 2.19994C839.733 6.73327 832.933 19.2666 820 56.9999C811.867 80.9999 806.933 92.3333 803.067 96.5999C800 100.067 792.533 100.6 749.6 100.867C714.533 101 709.333 101.267 704.667 103.4C687.2 111.267 686.8 125 703.733 141.4C708 145.667 719.467 155 729.333 162.467C765.2 189.267 768.933 193.4 767.467 203.533C766.933 206.6 761.467 223.933 755.333 242.333C742.667 279.667 740.933 288.733 744.533 298.333C747.333 305.667 751.867 308.333 761.067 308.333C770.267 308.333 783.2 301.4 810.667 282.2C832.267 267 845.867 259 850 259C853.6 259 864.267 265.133 876 273.933C882.267 278.6 893.467 287.133 900.933 292.867C919.6 307 930.133 312.333 939.2 312.333C947.333 312.333 952 309.533 954.667 303C957.467 296.2 955.6 277.933 950.133 259.667C937.733 218.6 936 211.8 936 205C936 198.2 936.267 197.667 943.067 191.533C947.067 187.933 960.4 178.067 972.667 169.667C998.4 152.2 1012 139.8 1014.4 131.667C1018 119 1010.13 110.333 991.867 107C987.867 106.2 968.667 105.133 949.333 104.467C907.2 103.133 905.6 102.733 900.667 92.0666C898.933 88.1999 893.467 71.7999 888.667 55.6666C883.733 39.2666 877.733 22.4666 875.067 17.2666C867.733 3.39994 858.933 -1.9334 849.867 2.19994Z' fill='%2300B6FF' /%3E%3Cpath d='M1195.33 2.1999C1185.2 6.5999 1179.07 17.6666 1166.13 55.1332C1152.93 93.3999 1150.4 98.1999 1141.87 99.7999C1139.47 100.2 1118.93 100.733 1096.4 100.867C1055.47 101 1055.33 101 1048.8 104.333C1037.2 110.2 1034.13 118.067 1039.33 128.867C1043.07 136.733 1052.8 145.667 1079.6 165.933C1107.07 186.867 1113.33 193 1113.33 199.133C1113.33 205.4 1110.13 216.6 1100.8 242.6C1086.67 281.933 1085.2 295.133 1094 303.933C1097.87 307.8 1099.2 308.333 1105.6 308.333C1116.8 308.333 1127.87 302.333 1165.33 275.667C1182.67 263.4 1192.53 258.6 1198 259.533C1202.93 260.467 1212.8 267.133 1241.33 288.867C1265.07 306.867 1275.33 312.333 1284.93 312.333C1292.13 312.333 1296.4 310.067 1299.2 304.6C1304.27 294.333 1302.8 283.4 1291.07 245C1286.13 228.867 1282.27 213.133 1281.73 207.933L1280.93 198.867L1287.47 192.6C1291.07 189.133 1304.53 179.133 1317.33 170.333C1350.53 147.533 1361.33 136.467 1361.33 125.533C1361.33 117 1351.73 109.667 1337.2 107C1333.2 106.2 1314 105.133 1294.67 104.467C1252.53 103.133 1251.33 102.867 1246.27 92.0666C1244.4 88.0666 1239.87 74.5999 1236.13 62.1999C1222.93 17.1332 1217.87 6.5999 1207.07 2.1999C1201.87 -0.0667643 1200.4 -0.0667643 1195.33 2.1999Z' fill='%2300B6FF' /%3E%3Cpath d='M1540.67 2.20008C1530.8 6.46675 1524.8 17.4001 1511.33 56.3334C1498.53 93.1334 1495.73 98.2001 1486.93 99.8001C1484.53 100.333 1464 100.733 1441.6 100.867C1404.8 101 1400.13 101.267 1394.93 103.533C1383.33 108.6 1379.6 118.467 1385.2 129.4C1388.93 136.6 1403.2 149.667 1426.8 167.4C1438.27 175.933 1450.27 185.8 1453.33 189.133C1458.93 195.267 1459.07 195.4 1458.27 203C1457.73 207.267 1453.2 222.6 1448.13 237.133C1436.8 269.933 1436.53 271 1434.67 281.533C1431.73 298.467 1437.87 308.333 1451.33 308.333C1460.93 308.333 1474 301.533 1501.33 282.467C1523.87 266.6 1536.67 259 1540.93 259C1544.93 259 1554.8 264.6 1567.07 273.933C1601.2 299.8 1607.33 304.2 1614.27 307.667C1618.93 310.067 1624.53 311.667 1629.33 312.067C1635.87 312.6 1637.33 312.2 1640.93 309.133C1643.73 306.733 1645.6 303.533 1646.67 299.133C1649.2 288.6 1647.07 278.6 1632.8 231.667C1630 222.867 1627.47 211.933 1627.07 207.267L1626.27 198.867L1632.8 192.6C1636.53 189.133 1649.73 179.267 1662.4 170.6C1702.67 143 1712 131.133 1704 118.067C1698.13 108.2 1687.6 106.067 1639.87 104.467C1597.47 103.133 1596.8 103 1591.73 91.5334C1589.73 87.1334 1584.53 71.4001 1580 56.4667C1568.27 17.6667 1562.67 6.46675 1552.4 2.20008C1547.2 -0.0665853 1545.73 -0.0665853 1540.67 2.20008Z' fill='%2300B6FF' /%3E%3C/svg%3E");
+      }
+    </style>
+
+    <div class="row reviews">
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="review-box m-1">
+        <div class="d-flex align-items-center flex-wrap">
+          <div class="stars me-1 mb-1"></div>
+          <span class="mb-1">9 miesięcy temu</span>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium distinctio laboriosam suscipit eius
+          voluptates quisquam rerum ex blanditiis nemo, accusantium nulla repudiandae aperiam deserunt ad alias
+          delectus quas, quasi a!
+        </p>
+        <span class="author mt-1">
+          ~ jan kowalski
+        </span>
+      </div>
+      <div class="w-100 d-flex justify-content-center">
+        <div class="mr-1 button button button-primary button-review mt-2" onclick="showMore(this);">
+          Więcej
+        </div>
+      </div>
     </div>
+    <script>
+      const reviews = document.querySelectorAll('.review-box')
+      let flag = 0
+      const showMore = (e) => {
+        flag++
+        if (flag == 1) {
+          reviews.forEach((review, id) => {
+            if (id <= 5 ) {
+              review.classList.add('show')
+            }
+          });
+        } else if ( flag == 2) {
+          reviews.forEach((review, id) => {
+            if (id > 5 && id <= 11 ) {
+              review.classList.add('show')
+            }
+          });
+          e.remove();
+        } 
+      }
+      showMore();
+    </script>
   </div>
 </div>
+</div>
+
 {% endif %}
 
 {% assign cards = site.posts | sort: 'date' | reverse %}
 {% assign limit = page.posts.limit | default: 2 %}
 {% assign sort_by = page.posts.sort | default: 'date' %}
-{% assign columns =  page.posts.columns | default: 2 %}
+{% assign columns = page.posts.columns | default: 2 %}
 {% capture columns %}col-lg-{{ 12 | divided_by:columns }}{% endcapture %}
 {% if sort_by == 'weight' %}
-  {% assign cards = cards | sort: 'weight' %}
+{% assign cards = cards | sort: 'weight' %}
 {% endif %}
 
 {% if page.posts.enabled %}
-  <div class="section bg-base-bg-2">
-    <div class="container">
-      <div class="row">
+<div class="section bg-base-bg-2">
+  <div class="container">
+    <div class="row">
 
-        {% include framework/blocks/components/grid-header.html
-          heading=page.posts.heading
-          sub_heading=page.posts.sub_heading
-          align="center"
-        %}
-        
-        {% for card in cards limit: limit %}
-          <div class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
-            {% include theme/cards/card-posts.html 
-              title=card.title 
-              description=card.description
-              thumbnail=card.thumbnail
-              url=card.url 
-              weight=card.weight
-            %}
-          </div>
-        {% endfor %}
+      {% include framework/blocks/components/grid-header.html
+      heading=page.posts.heading
+      sub_heading=page.posts.sub_heading
+      align="center"
+      %}
 
-        {% include framework/blocks/components/grid-footer.html 
-          view_more_button_text=page.posts.view_more_button_text
-          view_more_button_link=page.posts.view_more_button_link
-          align="center"
+      {% for card in cards limit: limit %}
+      <div
+        class="col-12 col-md-4 {{ columns }} mb-3 {% if forloop.first %}mt-0 {% endif %} {% if forloop.last %}mb-0 {% endif %}">
+        {% include theme/cards/card-posts.html
+        title=card.title
+        description=card.description
+        thumbnail=card.thumbnail
+        url=card.url
+        weight=card.weight
         %}
+      </div>
+      {% endfor %}
+
+      {% include framework/blocks/components/grid-footer.html
+      view_more_button_text=page.posts.view_more_button_text
+      view_more_button_link=page.posts.view_more_button_link
+      align="center"
+      %}
 
     </div>
   </div>
