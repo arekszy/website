@@ -5,11 +5,6 @@
     "url": "mailto:biuro@itechelectronics.pl"
   },
   {
-    "title": "Zadzwoń",
-    "fa_icon": "fa-solid fa-phone",
-    "url": "tel://+48501501106"
-  },
-  {
     "title": "Mapa",
     "fa_icon": "fa-solid fa-map-location-dot",
     "url": "https://goo.gl/maps/7T2r7TwDnmXPJbfR9"
